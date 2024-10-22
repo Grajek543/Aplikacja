@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="aplikacja.strony.strona1"
+             Title="strona1"
+             BackgroundColor="#611726">
+    <VerticalStackLayout>
+        <Label 
+            Text="To jest strona 1"
+            FontSize="20"
+            FontAttributes="Bold"
+            Margin="20"
+            TextColor="white"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Button x:Name="clickstrona2"
+                Text="otworz drugą stronę"
+                Margin="20"
+                Clicked="clickstrona2_click"
+                BackgroundColor="Blue"
+                TextColor="red"></Button>
+    </VerticalStackLayout>
+</ContentPage>
