@@ -13,6 +13,12 @@ namespace aplikacja
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
+                    fonts.AddFont("DynaPuff.ttf", "Dynapuff");
+                    fonts.AddFont("NerkoOne.ttf", "Nerkoone");
+                    fonts.AddFont("Rubik.ttf", "Rubik");
+                    fonts.AddFont("Tiny5.ttf", "Tiny5");
+                    fonts.AddFont("YatraOne.ttf", "Yatra");
+
                 });
 
 #if DEBUG

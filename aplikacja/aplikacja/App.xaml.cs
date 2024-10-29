@@ -13,6 +13,7 @@ namespace aplikacja
             // navigationPage.BarBackgroundColor = Colors.Black;
             // navigationPage.BarTextColor = Colors.White;
             MainPage = new zakladka1();
+
         }
     }
 }
