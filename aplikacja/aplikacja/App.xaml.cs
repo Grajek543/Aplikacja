@@ -1,5 +1,5 @@
 ﻿using aplikacja.strony;
-using aplikacja.strony.zakładki;
+using aplikacja.strony.zakladki;
 using aplikacja.strony.navigacja;
 namespace aplikacja
 {
@@ -13,6 +13,7 @@ namespace aplikacja
             // navigationPage.BarBackgroundColor = Colors.Black;
             // navigationPage.BarTextColor = Colors.White;
             MainPage = new zakladka1();
+
         }
     }
 }

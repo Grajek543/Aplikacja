@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     "net8.0-android34.0": {
+      "FirebirdSql.Data.FirebirdClient/10.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/FirebirdSql.Data.FirebirdClient.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/FirebirdSql.Data.FirebirdClient.dll": {}
+        }
+      },
       "GoogleGson/2.10.1.4": {
         "type": "package",
         "compile": {
@@ -2209,6 +2218,15 @@
       }
     },
     "net8.0-android34.0/android-arm": {
+      "FirebirdSql.Data.FirebirdClient/10.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/FirebirdSql.Data.FirebirdClient.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/FirebirdSql.Data.FirebirdClient.dll": {}
+        }
+      },
       "GoogleGson/2.10.1.4": {
         "type": "package",
         "compile": {
@@ -4416,6 +4434,15 @@
       }
     },
     "net8.0-android34.0/android-arm64": {
+      "FirebirdSql.Data.FirebirdClient/10.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/FirebirdSql.Data.FirebirdClient.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/FirebirdSql.Data.FirebirdClient.dll": {}
+        }
+      },
       "GoogleGson/2.10.1.4": {
         "type": "package",
         "compile": {
@@ -6623,6 +6650,15 @@
       }
     },
     "net8.0-android34.0/android-x64": {
+      "FirebirdSql.Data.FirebirdClient/10.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/FirebirdSql.Data.FirebirdClient.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/FirebirdSql.Data.FirebirdClient.dll": {}
+        }
+      },
       "GoogleGson/2.10.1.4": {
         "type": "package",
         "compile": {
@@ -8830,6 +8866,15 @@
       }
     },
     "net8.0-android34.0/android-x86": {
+      "FirebirdSql.Data.FirebirdClient/10.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/FirebirdSql.Data.FirebirdClient.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/FirebirdSql.Data.FirebirdClient.dll": {}
+        }
+      },
       "GoogleGson/2.10.1.4": {
         "type": "package",
         "compile": {
@@ -11037,6 +11082,15 @@
       }
     },
     "net8.0-android34.0/ios-arm64": {
+      "FirebirdSql.Data.FirebirdClient/10.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/FirebirdSql.Data.FirebirdClient.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/FirebirdSql.Data.FirebirdClient.dll": {}
+        }
+      },
       "GoogleGson/2.10.1.4": {
         "type": "package",
         "compile": {
@@ -13244,6 +13298,15 @@
       }
     },
     "net8.0-android34.0/maccatalyst-x64": {
+      "FirebirdSql.Data.FirebirdClient/10.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/FirebirdSql.Data.FirebirdClient.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/FirebirdSql.Data.FirebirdClient.dll": {}
+        }
+      },
       "GoogleGson/2.10.1.4": {
         "type": "package",
         "compile": {
@@ -15451,6 +15514,15 @@
       }
     },
     "net8.0-android34.0/win10-x64": {
+      "FirebirdSql.Data.FirebirdClient/10.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/FirebirdSql.Data.FirebirdClient.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/FirebirdSql.Data.FirebirdClient.dll": {}
+        }
+      },
       "GoogleGson/2.10.1.4": {
         "type": "package",
         "compile": {
@@ -17658,6 +17730,15 @@
       }
     },
     "net8.0-ios18.0": {
+      "FirebirdSql.Data.FirebirdClient/10.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/FirebirdSql.Data.FirebirdClient.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/FirebirdSql.Data.FirebirdClient.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -18079,6 +18160,15 @@
       }
     },
     "net8.0-ios18.0/android-arm": {
+      "FirebirdSql.Data.FirebirdClient/10.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/FirebirdSql.Data.FirebirdClient.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/FirebirdSql.Data.FirebirdClient.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -18500,6 +18590,15 @@
       }
     },
     "net8.0-ios18.0/android-arm64": {
+      "FirebirdSql.Data.FirebirdClient/10.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/FirebirdSql.Data.FirebirdClient.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/FirebirdSql.Data.FirebirdClient.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -18921,6 +19020,15 @@
       }
     },
     "net8.0-ios18.0/android-x64": {
+      "FirebirdSql.Data.FirebirdClient/10.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/FirebirdSql.Data.FirebirdClient.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/FirebirdSql.Data.FirebirdClient.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -19342,6 +19450,15 @@
       }
     },
     "net8.0-ios18.0/android-x86": {
+      "FirebirdSql.Data.FirebirdClient/10.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/FirebirdSql.Data.FirebirdClient.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/FirebirdSql.Data.FirebirdClient.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -19763,6 +19880,15 @@
       }
     },
     "net8.0-ios18.0/ios-arm64": {
+      "FirebirdSql.Data.FirebirdClient/10.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/FirebirdSql.Data.FirebirdClient.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/FirebirdSql.Data.FirebirdClient.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -20184,6 +20310,15 @@
       }
     },
     "net8.0-ios18.0/maccatalyst-x64": {
+      "FirebirdSql.Data.FirebirdClient/10.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/FirebirdSql.Data.FirebirdClient.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/FirebirdSql.Data.FirebirdClient.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -20605,6 +20740,15 @@
       }
     },
     "net8.0-ios18.0/win10-x64": {
+      "FirebirdSql.Data.FirebirdClient/10.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/FirebirdSql.Data.FirebirdClient.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/FirebirdSql.Data.FirebirdClient.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -21026,6 +21170,15 @@
       }
     },
     "net8.0-maccatalyst18.0": {
+      "FirebirdSql.Data.FirebirdClient/10.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/FirebirdSql.Data.FirebirdClient.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/FirebirdSql.Data.FirebirdClient.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -21447,6 +21600,15 @@
       }
     },
     "net8.0-maccatalyst18.0/android-arm": {
+      "FirebirdSql.Data.FirebirdClient/10.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/FirebirdSql.Data.FirebirdClient.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/FirebirdSql.Data.FirebirdClient.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -21868,6 +22030,15 @@
       }
     },
     "net8.0-maccatalyst18.0/android-arm64": {
+      "FirebirdSql.Data.FirebirdClient/10.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/FirebirdSql.Data.FirebirdClient.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/FirebirdSql.Data.FirebirdClient.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -22289,6 +22460,15 @@
       }
     },
     "net8.0-maccatalyst18.0/android-x64": {
+      "FirebirdSql.Data.FirebirdClient/10.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/FirebirdSql.Data.FirebirdClient.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/FirebirdSql.Data.FirebirdClient.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -22710,6 +22890,15 @@
       }
     },
     "net8.0-maccatalyst18.0/android-x86": {
+      "FirebirdSql.Data.FirebirdClient/10.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/FirebirdSql.Data.FirebirdClient.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/FirebirdSql.Data.FirebirdClient.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -23131,6 +23320,15 @@
       }
     },
     "net8.0-maccatalyst18.0/ios-arm64": {
+      "FirebirdSql.Data.FirebirdClient/10.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/FirebirdSql.Data.FirebirdClient.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/FirebirdSql.Data.FirebirdClient.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -23552,6 +23750,15 @@
       }
     },
     "net8.0-maccatalyst18.0/maccatalyst-x64": {
+      "FirebirdSql.Data.FirebirdClient/10.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/FirebirdSql.Data.FirebirdClient.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/FirebirdSql.Data.FirebirdClient.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -23973,6 +24180,15 @@
       }
     },
     "net8.0-maccatalyst18.0/win10-x64": {
+      "FirebirdSql.Data.FirebirdClient/10.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/FirebirdSql.Data.FirebirdClient.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/FirebirdSql.Data.FirebirdClient.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -24394,6 +24610,15 @@
       }
     },
     "net8.0-windows10.0.19041": {
+      "FirebirdSql.Data.FirebirdClient/10.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/FirebirdSql.Data.FirebirdClient.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/FirebirdSql.Data.FirebirdClient.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -24984,6 +25209,15 @@
       }
     },
     "net8.0-windows10.0.19041/android-arm": {
+      "FirebirdSql.Data.FirebirdClient/10.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/FirebirdSql.Data.FirebirdClient.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/FirebirdSql.Data.FirebirdClient.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -25534,6 +25768,15 @@
       }
     },
     "net8.0-windows10.0.19041/android-arm64": {
+      "FirebirdSql.Data.FirebirdClient/10.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/FirebirdSql.Data.FirebirdClient.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/FirebirdSql.Data.FirebirdClient.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -26084,6 +26327,15 @@
       }
     },
     "net8.0-windows10.0.19041/android-x64": {
+      "FirebirdSql.Data.FirebirdClient/10.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/FirebirdSql.Data.FirebirdClient.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/FirebirdSql.Data.FirebirdClient.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -26634,6 +26886,15 @@
       }
     },
     "net8.0-windows10.0.19041/android-x86": {
+      "FirebirdSql.Data.FirebirdClient/10.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/FirebirdSql.Data.FirebirdClient.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/FirebirdSql.Data.FirebirdClient.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -27184,6 +27445,15 @@
       }
     },
     "net8.0-windows10.0.19041/ios-arm64": {
+      "FirebirdSql.Data.FirebirdClient/10.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/FirebirdSql.Data.FirebirdClient.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/FirebirdSql.Data.FirebirdClient.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -27734,6 +28004,15 @@
       }
     },
     "net8.0-windows10.0.19041/maccatalyst-x64": {
+      "FirebirdSql.Data.FirebirdClient/10.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/FirebirdSql.Data.FirebirdClient.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/FirebirdSql.Data.FirebirdClient.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -28284,6 +28563,15 @@
       }
     },
     "net8.0-windows10.0.19041/win10-x64": {
+      "FirebirdSql.Data.FirebirdClient/10.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/FirebirdSql.Data.FirebirdClient.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/FirebirdSql.Data.FirebirdClient.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -28841,6 +29129,27 @@
     }
   },
   "libraries": {
+    "FirebirdSql.Data.FirebirdClient/10.3.1": {
+      "sha512": "LDKlTIH3Tivi8sMkwrolVcIZWJDTwxBCugE+eEZRY6pFnK75gmJnV0u4FkC73M6ERbCKUvY7m5ox8VkicJZubg==",
+      "type": "package",
+      "path": "firebirdsql.data.firebirdclient/10.3.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "firebird-logo.png",
+        "firebirdsql.data.firebirdclient.10.3.1.nupkg.sha512",
+        "firebirdsql.data.firebirdclient.nuspec",
+        "lib/net48/FirebirdSql.Data.FirebirdClient.dll",
+        "lib/net5.0/FirebirdSql.Data.FirebirdClient.dll",
+        "lib/net6.0/FirebirdSql.Data.FirebirdClient.dll",
+        "lib/net7.0/FirebirdSql.Data.FirebirdClient.dll",
+        "lib/net8.0/FirebirdSql.Data.FirebirdClient.dll",
+        "lib/netstandard2.0/FirebirdSql.Data.FirebirdClient.dll",
+        "lib/netstandard2.1/FirebirdSql.Data.FirebirdClient.dll",
+        "license.txt"
+      ]
+    },
     "GoogleGson/2.10.1.4": {
       "sha512": "L1vdbwbQzvKUoUGiMpMoJG5fqfLXaP6zMy1a26AYJQJSQKUO7Ojr2U5BAmgQoRxQ8J2GDjBfnfgnrsnorb4y5Q==",
       "type": "package",
@@ -33025,48 +33334,52 @@
   },
   "projectFileDependencyGroups": {
     "net8.0-android34.0": [
+      "FirebirdSql.Data.FirebirdClient >= 10.3.1",
       "Microsoft.Extensions.Logging.Debug >= 8.0.0",
       "Microsoft.Maui.Controls >= 8.0.82",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.82",
       "Microsoft.NET.ILLink.Tasks >= 8.0.10"
     ],
     "net8.0-ios18.0": [
+      "FirebirdSql.Data.FirebirdClient >= 10.3.1",
       "Microsoft.Extensions.Logging.Debug >= 8.0.0",
       "Microsoft.Maui.Controls >= 8.0.82",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.82",
       "Microsoft.NET.ILLink.Tasks >= 8.0.10"
     ],
     "net8.0-maccatalyst18.0": [
+      "FirebirdSql.Data.FirebirdClient >= 10.3.1",
       "Microsoft.Extensions.Logging.Debug >= 8.0.0",
       "Microsoft.Maui.Controls >= 8.0.82",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.82",
       "Microsoft.NET.ILLink.Tasks >= 8.0.10"
     ],
     "net8.0-windows10.0.19041": [
+      "FirebirdSql.Data.FirebirdClient >= 10.3.1",
       "Microsoft.Extensions.Logging.Debug >= 8.0.0",
       "Microsoft.Maui.Controls >= 8.0.82",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.82"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Grzegorz\\.nuget\\packages\\": {},
+    "C:\\Users\\pawel\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Grzegorz\\Desktop\\projekty\\Aplikacja\\aplikacja\\aplikacja\\aplikacja.csproj",
+      "projectUniqueName": "P:\\STUDIA\\PROJEKTY\\mobil\\Aplikacja\\aplikacja\\aplikacja\\aplikacja.csproj",
       "projectName": "aplikacja",
-      "projectPath": "C:\\Users\\Grzegorz\\Desktop\\projekty\\Aplikacja\\aplikacja\\aplikacja\\aplikacja.csproj",
-      "packagesPath": "C:\\Users\\Grzegorz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Grzegorz\\Desktop\\projekty\\Aplikacja\\aplikacja\\aplikacja\\obj\\",
+      "projectPath": "P:\\STUDIA\\PROJEKTY\\mobil\\Aplikacja\\aplikacja\\aplikacja\\aplikacja.csproj",
+      "packagesPath": "C:\\Users\\pawel\\.nuget\\packages\\",
+      "outputPath": "P:\\STUDIA\\PROJEKTY\\mobil\\Aplikacja\\aplikacja\\aplikacja\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Grzegorz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\pawel\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -33114,6 +33427,10 @@
       "net8.0-android34.0": {
         "targetAlias": "net8.0-android",
         "dependencies": {
+          "FirebirdSql.Data.FirebirdClient": {
+            "target": "Package",
+            "version": "[10.3.1, )"
+          },
           "Microsoft.Extensions.Logging.Debug": {
             "target": "Package",
             "version": "[8.0.0, )"
@@ -33157,6 +33474,10 @@
       "net8.0-ios18.0": {
         "targetAlias": "net8.0-ios",
         "dependencies": {
+          "FirebirdSql.Data.FirebirdClient": {
+            "target": "Package",
+            "version": "[10.3.1, )"
+          },
           "Microsoft.Extensions.Logging.Debug": {
             "target": "Package",
             "version": "[8.0.0, )"
@@ -33200,6 +33521,10 @@
       "net8.0-maccatalyst18.0": {
         "targetAlias": "net8.0-maccatalyst",
         "dependencies": {
+          "FirebirdSql.Data.FirebirdClient": {
+            "target": "Package",
+            "version": "[10.3.1, )"
+          },
           "Microsoft.Extensions.Logging.Debug": {
             "target": "Package",
             "version": "[8.0.0, )"
@@ -33244,6 +33569,10 @@
       "net8.0-windows10.0.19041": {
         "targetAlias": "net8.0-windows10.0.19041.0",
         "dependencies": {
+          "FirebirdSql.Data.FirebirdClient": {
+            "target": "Package",
+            "version": "[10.3.1, )"
+          },
           "Microsoft.Extensions.Logging.Debug": {
             "target": "Package",
             "version": "[8.0.0, )"

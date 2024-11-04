@@ -3,8 +3,8 @@
   <PropertyGroup>
     <IsFirstTimeProjectOpen>False</IsFirstTimeProjectOpen>
     <ActiveDebugFramework>net8.0-android</ActiveDebugFramework>
-    <ActiveDebugProfile>Samsung SM-S918B (Android 14.0 — API 34)</ActiveDebugProfile>
-    <SelectedPlatformGroup>PhysicalDevice</SelectedPlatformGroup>
+    <ActiveDebugProfile>Pixel 5 - API 34 (Android 14.0 — API 34)</ActiveDebugProfile>
+    <SelectedPlatformGroup>Emulator</SelectedPlatformGroup>
     <DefaultDevice>pixel_5_-_api_34</DefaultDevice>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net8.0-android|AnyCPU'">
@@ -33,7 +33,10 @@
     <MauiXaml Update="strony\normal\strona3.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="strony\zakładki\zakladka1.xaml">
+    <MauiXaml Update="strony\zakladki\zakladka1.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="strony\zakladki\zakladka2.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
   </ItemGroup>

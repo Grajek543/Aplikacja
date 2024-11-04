@@ -12,65 +12,77 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = aplikacja
-build_property.ProjectDir = C:\Users\Grzegorz\Desktop\projekty\Aplikacja\aplikacja\aplikacja\
+build_property.ProjectDir = P:\STUDIA\PROJEKTY\mobil\Aplikacja\aplikacja\aplikacja\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[C:/Users/Grzegorz/Desktop/projekty/Aplikacja/aplikacja/aplikacja/App.xaml]
+[P:/STUDIA/PROJEKTY/mobil/Aplikacja/aplikacja/aplikacja/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = aplikacja.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/Grzegorz/Desktop/projekty/Aplikacja/aplikacja/aplikacja/Resources/Styles/Colors.xaml]
+[P:/STUDIA/PROJEKTY/mobil/Aplikacja/aplikacja/aplikacja/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = aplikacja.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/Grzegorz/Desktop/projekty/Aplikacja/aplikacja/aplikacja/Resources/Styles/Styles.xaml]
+[P:/STUDIA/PROJEKTY/mobil/Aplikacja/aplikacja/aplikacja/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = aplikacja.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[C:/Users/Grzegorz/Desktop/projekty/Aplikacja/aplikacja/aplikacja/strony/navigacja/stronanav1.xaml]
+[P:/STUDIA/PROJEKTY/mobil/Aplikacja/aplikacja/aplikacja/strony/navigacja/stronanav1.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = aplikacja.strony.navigacja.stronanav1.xaml
 build_metadata.AdditionalFiles.TargetPath = strony\navigacja\stronanav1.xaml
 build_metadata.AdditionalFiles.RelativePath = strony\navigacja\stronanav1.xaml
 
-[C:/Users/Grzegorz/Desktop/projekty/Aplikacja/aplikacja/aplikacja/strony/navigacja/stronanav2.xaml]
+[P:/STUDIA/PROJEKTY/mobil/Aplikacja/aplikacja/aplikacja/strony/navigacja/stronanav2.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = aplikacja.strony.navigacja.stronanav2.xaml
 build_metadata.AdditionalFiles.TargetPath = strony\navigacja\stronanav2.xaml
 build_metadata.AdditionalFiles.RelativePath = strony\navigacja\stronanav2.xaml
 
-[C:/Users/Grzegorz/Desktop/projekty/Aplikacja/aplikacja/aplikacja/strony/navigacja/stronanav3.xaml]
+[P:/STUDIA/PROJEKTY/mobil/Aplikacja/aplikacja/aplikacja/strony/navigacja/stronanav3.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = aplikacja.strony.navigacja.stronanav3.xaml
 build_metadata.AdditionalFiles.TargetPath = strony\navigacja\stronanav3.xaml
 build_metadata.AdditionalFiles.RelativePath = strony\navigacja\stronanav3.xaml
 
-[C:/Users/Grzegorz/Desktop/projekty/Aplikacja/aplikacja/aplikacja/strony/normal/strona1.xaml]
+[P:/STUDIA/PROJEKTY/mobil/Aplikacja/aplikacja/aplikacja/strony/normal/strona1.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = aplikacja.strony.normal.strona1.xaml
 build_metadata.AdditionalFiles.TargetPath = strony\normal\strona1.xaml
 build_metadata.AdditionalFiles.RelativePath = strony\normal\strona1.xaml
 
-[C:/Users/Grzegorz/Desktop/projekty/Aplikacja/aplikacja/aplikacja/strony/normal/strona2.xaml]
+[P:/STUDIA/PROJEKTY/mobil/Aplikacja/aplikacja/aplikacja/strony/normal/strona2.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = aplikacja.strony.normal.strona2.xaml
 build_metadata.AdditionalFiles.TargetPath = strony\normal\strona2.xaml
 build_metadata.AdditionalFiles.RelativePath = strony\normal\strona2.xaml
 
-[C:/Users/Grzegorz/Desktop/projekty/Aplikacja/aplikacja/aplikacja/strony/normal/strona3.xaml]
+[P:/STUDIA/PROJEKTY/mobil/Aplikacja/aplikacja/aplikacja/strony/normal/strona3.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = aplikacja.strony.normal.strona3.xaml
 build_metadata.AdditionalFiles.TargetPath = strony\normal\strona3.xaml
 build_metadata.AdditionalFiles.RelativePath = strony\normal\strona3.xaml
 
-[C:/Users/Grzegorz/Desktop/projekty/Aplikacja/aplikacja/aplikacja/strony/zakładki/zakladka1.xaml]
+[P:/STUDIA/PROJEKTY/mobil/Aplikacja/aplikacja/aplikacja/strony/zakladki/zakladka1.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = aplikacja.strony.zakladki.zakladka1.xaml
+build_metadata.AdditionalFiles.TargetPath = strony\zakladki\zakladka1.xaml
+build_metadata.AdditionalFiles.RelativePath = strony\zakladki\zakladka1.xaml
+
+[P:/STUDIA/PROJEKTY/mobil/Aplikacja/aplikacja/aplikacja/strony/zakladki/zakladka2.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = aplikacja.strony.zakladki.zakladka2.xaml
+build_metadata.AdditionalFiles.TargetPath = strony\zakladki\zakladka2.xaml
+build_metadata.AdditionalFiles.RelativePath = strony\zakladki\zakladka2.xaml
+
+[P:/STUDIA/PROJEKTY/mobil/Aplikacja/aplikacja/aplikacja/strony/zakładki/zakladka1.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = aplikacja.strony.zakładki.zakladka1.xaml
 build_metadata.AdditionalFiles.TargetPath = strony\zakładki\zakladka1.xaml
