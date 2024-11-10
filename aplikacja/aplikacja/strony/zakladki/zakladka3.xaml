@@ -15,7 +15,7 @@
             <Label Text="Settings" HorizontalOptions="Center" FontFamily="Tiny5" FontSize="24" Padding="20" />
 
 
-            <Button BackgroundColor="RosyBrown" Text="Select Language" Clicked="OnSelectLanguageButtonClicked" />
+            <Button BackgroundColor="RosyBrown" Text="Select Language" Clicked="OnSelectLanguageButtonClicked" Margin="10"/>
 
             <CollectionView x:Name="LanguageListView" IsVisible="False" SelectionMode="Single" SelectionChanged="OnLanguageSelected">
                 <CollectionView.ItemTemplate>
@@ -24,6 +24,19 @@
                     </DataTemplate>
                 </CollectionView.ItemTemplate>
             </CollectionView>
+
+
+            <Button BackgroundColor="RosyBrown" Text="Select Theme" Clicked="OnSelectThemeButtonClicked" Margin="10"/>
+
+            <CollectionView x:Name="ThemeListView" IsVisible="False" SelectionMode="Single" SelectionChanged="OnThemeSelected">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Label Text="{Binding}" Padding="10" />
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+            
+            
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

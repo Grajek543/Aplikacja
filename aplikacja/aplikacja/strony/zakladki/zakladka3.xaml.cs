@@ -15,6 +15,9 @@ public partial class zakladka3 : ContentPage
         //lista jêzyków
         List<string> languages = new List<string> { "English", "Polski" };
         LanguageListView.ItemsSource = languages;
+        // Lista motywów
+        List<string> themes = new List<string> { "Auto", "Light", "Dark" };
+        ThemeListView.ItemsSource = themes;
     }
 
     private void OnSelectLanguageButtonClicked(object sender, EventArgs e)
@@ -33,4 +36,37 @@ public partial class zakladka3 : ContentPage
         // ukrywa listê po dokonaniu wyboru
         LanguageListView.IsVisible = false;
     }
-}
+
+
+
+
+    private void OnSelectThemeButtonClicked(object sender, EventArgs e)
+    {
+        // Pokazuje lub ukrywa listê motywów po klikniêciu przycisku
+        ThemeListView.IsVisible = !ThemeListView.IsVisible;
+    }
+
+    private void OnThemeSelected(object sender, SelectionChangedEventArgs e)
+    {
+        string selectedTheme = e.CurrentSelection[0] as string;
+
+        // Zmienia motyw w zale¿noœci od wyboru u¿ytkownika
+        switch (selectedTheme)
+        {
+            case "Auto":
+                Application.Current.UserAppTheme = AppTheme.Unspecified;
+                break;
+            case "Light":
+                Application.Current.UserAppTheme = AppTheme.Light;
+                break;
+            case "Dark":
+                Application.Current.UserAppTheme = AppTheme.Dark;
+                break;
+        }
+
+        // Wyœwietla informacjê o wybranym motywie i ukrywa listê po dokonaniu wyboru
+        DisplayAlert("Theme Selected", $"Selected theme: {selectedTheme}", "OK");
+        ThemeListView.IsVisible = false;
+
+    }
+    }
