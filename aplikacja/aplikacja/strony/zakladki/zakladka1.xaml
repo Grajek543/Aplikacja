@@ -167,10 +167,9 @@
         
     </local:zakladka2>
 
-    <ContentPage IconImageSource="ustawienia.png">
-        <Label Text="Ustawienia">
-        </Label>
-    </ContentPage>
+    <local:zakladka3 IconImageSource="ustawienia.png">
+
+    </local:zakladka3>
 
     <ContentPage IconImageSource="konto.png">
         <Label Text="Ustawienia konta">
