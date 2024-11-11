@@ -1,5 +1,5 @@
 ﻿using aplikacja.strony;
-using aplikacja.strony.zakładki;
+using aplikacja.strony.zakladki;
 using aplikacja.strony.navigacja;
 namespace aplikacja
 {

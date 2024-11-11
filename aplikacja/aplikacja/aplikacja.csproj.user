@@ -3,8 +3,8 @@
   <PropertyGroup>
     <IsFirstTimeProjectOpen>False</IsFirstTimeProjectOpen>
     <ActiveDebugFramework>net8.0-android</ActiveDebugFramework>
-    <ActiveDebugProfile>Emulator systemu Android</ActiveDebugProfile>
-    <SelectedPlatformGroup>Emulator</SelectedPlatformGroup>
+    <ActiveDebugProfile>Samsung SM-A546B (Android 14.0 — API 34)</ActiveDebugProfile>
+    <SelectedPlatformGroup>PhysicalDevice</SelectedPlatformGroup>
     <DefaultDevice>pixel_5_-_api_34</DefaultDevice>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net8.0-android|AnyCPU'">
@@ -24,6 +24,9 @@
     <MauiXaml Update="strony\navigacja\stronanav3.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="strony\normal\CartPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="strony\normal\strona1.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
@@ -33,7 +36,10 @@
     <MauiXaml Update="strony\normal\strona3.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="strony\zakładki\zakladka1.xaml">
+    <MauiXaml Update="strony\zakladki\zakladka1.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="strony\zakladki\zakladka2.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
   </ItemGroup>
