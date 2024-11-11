@@ -172,8 +172,7 @@
         </Label>
     </ContentPage>
 
-    <ContentPage IconImageSource="konto.png">
-        <Label Text="Ustawienia konta">
-        </Label>
-    </ContentPage>
+    <local:zakladka4 IconImageSource="konto.png">
+
+    </local:zakladka4>
 </TabbedPage>

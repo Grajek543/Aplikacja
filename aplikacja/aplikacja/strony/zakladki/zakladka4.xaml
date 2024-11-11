@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="aplikacja.strony.zakladki.zakladka4">
+    <Grid RowDefinitions="0.05*,0.9*,0.05*">
+        <Grid BackgroundColor="orange" Opacity="0.9">
+            
+        </Grid>
+    </Grid>
+</ContentPage>

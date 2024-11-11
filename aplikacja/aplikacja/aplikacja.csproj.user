@@ -39,6 +39,9 @@
     <MauiXaml Update="strony\zakladki\zakladka2.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="strony\zakladki\zakladka4.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
   </ItemGroup>
   <ItemGroup>
     <None Update="App.xaml">

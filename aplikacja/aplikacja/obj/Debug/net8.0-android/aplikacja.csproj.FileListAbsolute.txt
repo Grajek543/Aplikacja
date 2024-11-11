@@ -3165,3 +3165,4 @@ P:\STUDIA\PROJEKTY\mobil\Aplikacja\aplikacja\aplikacja\obj\Debug\net8.0-android\
 P:\STUDIA\PROJEKTY\mobil\Aplikacja\aplikacja\aplikacja\obj\Debug\net8.0-android\stamp\_GenerateJavaStubs.stamp
 P:\STUDIA\PROJEKTY\mobil\Aplikacja\aplikacja\aplikacja\obj\Debug\net8.0-android\stamp\_GeneratePackageManagerJava.stamp
 P:\STUDIA\PROJEKTY\mobil\Aplikacja\aplikacja\aplikacja\obj\Debug\net8.0-android\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\Grzegorz\Desktop\projekty\Aplikacja\aplikacja\aplikacja\obj\Debug\net8.0-android\resizetizer\r\drawable\wozek.png
