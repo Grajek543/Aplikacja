@@ -168,10 +168,10 @@
     </local:zakladka2>
 
     <local:zakladka3 IconImageSource="ustawienia.png">
-
+        
     </local:zakladka3>
 
     <local:zakladka4 IconImageSource="konto.png">
-
+        
     </local:zakladka4>
 </TabbedPage>

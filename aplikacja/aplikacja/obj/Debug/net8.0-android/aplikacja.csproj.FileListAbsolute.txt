@@ -4225,3 +4225,7 @@ P:\STUDIA\PROJEKTY\Mobilne\Aplikacja\aplikacja\aplikacja\obj\Debug\net8.0-androi
 P:\STUDIA\PROJEKTY\Mobilne\Aplikacja\aplikacja\aplikacja\obj\Debug\net8.0-android\android\assets\armeabi-v7a\System.Private.CoreLib.dll
 P:\STUDIA\PROJEKTY\Mobilne\Aplikacja\aplikacja\aplikacja\obj\Debug\net8.0-android\android\assets\x86\System.Private.CoreLib.dll
 P:\STUDIA\PROJEKTY\Mobilne\Aplikacja\aplikacja\aplikacja\obj\Debug\net8.0-android\android\assets\x86_64\System.Private.CoreLib.dll
+C:\Users\Grzegorz\Desktop\projekty\Aplikacja\aplikacja\aplikacja\obj\Debug\net8.0-android\resizetizer\r\drawable\lock.png
+C:\Users\Grzegorz\Desktop\projekty\Aplikacja\aplikacja\aplikacja\obj\Debug\net8.0-android\resizetizer\r\drawable\sign.png
+C:\Users\Grzegorz\Desktop\projekty\Aplikacja\aplikacja\aplikacja\obj\Debug\net8.0-android\resizetizer\r\drawable\tlo1.png
+C:\Users\Grzegorz\Desktop\projekty\Aplikacja\aplikacja\aplikacja\obj\Debug\net8.0-android\resizetizer\r\drawable\wozek.png

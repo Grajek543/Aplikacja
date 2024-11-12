@@ -33362,24 +33362,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\pawel\\.nuget\\packages\\": {},
+    "C:\\Users\\Grzegorz\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "P:\\STUDIA\\PROJEKTY\\Mobilne\\Aplikacja\\aplikacja\\aplikacja\\aplikacja.csproj",
+      "projectUniqueName": "C:\\Users\\Grzegorz\\Desktop\\projekty\\Aplikacja\\aplikacja\\aplikacja\\aplikacja.csproj",
       "projectName": "aplikacja",
-      "projectPath": "P:\\STUDIA\\PROJEKTY\\Mobilne\\Aplikacja\\aplikacja\\aplikacja\\aplikacja.csproj",
-      "packagesPath": "C:\\Users\\pawel\\.nuget\\packages\\",
-      "outputPath": "P:\\STUDIA\\PROJEKTY\\Mobilne\\Aplikacja\\aplikacja\\aplikacja\\obj\\",
+      "projectPath": "C:\\Users\\Grzegorz\\Desktop\\projekty\\Aplikacja\\aplikacja\\aplikacja\\aplikacja.csproj",
+      "packagesPath": "C:\\Users\\Grzegorz\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Grzegorz\\Desktop\\projekty\\Aplikacja\\aplikacja\\aplikacja\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\pawel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Grzegorz\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -33392,7 +33392,8 @@
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://www.nuget.org/api/v2/": {}
       },
       "frameworks": {
         "net8.0-android34.0": {
