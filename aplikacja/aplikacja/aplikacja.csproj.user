@@ -3,8 +3,13 @@
   <PropertyGroup>
     <IsFirstTimeProjectOpen>False</IsFirstTimeProjectOpen>
     <ActiveDebugFramework>net8.0-android</ActiveDebugFramework>
+<<<<<<< HEAD
     <ActiveDebugProfile>Samsung SM-A546B (Android 14.0 — API 34)</ActiveDebugProfile>
     <SelectedPlatformGroup>PhysicalDevice</SelectedPlatformGroup>
+=======
+    <ActiveDebugProfile>Pixel 5 - API 34 (Android 14.0 — API 34)</ActiveDebugProfile>
+    <SelectedPlatformGroup>Emulator</SelectedPlatformGroup>
+>>>>>>> origin/main
     <DefaultDevice>pixel_5_-_api_34</DefaultDevice>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net8.0-android|AnyCPU'">
@@ -36,10 +41,22 @@
     <MauiXaml Update="strony\normal\strona3.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+<<<<<<< HEAD
+=======
+    <MauiXaml Update="strony\zakladki\zakladka3.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+>>>>>>> origin/main
     <MauiXaml Update="strony\zakladki\zakladka1.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="strony\zakladki\zakladka2.xaml">
+<<<<<<< HEAD
+=======
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="strony\zakladki\zakladka4.xaml">
+>>>>>>> origin/main
       <SubType>Designer</SubType>
     </MauiXaml>
   </ItemGroup>

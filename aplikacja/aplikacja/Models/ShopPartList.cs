@@ -1,9 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
+<<<<<<< HEAD
 using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
+=======
+using System.Linq;
+using System.Text;
+>>>>>>> origin/main
 using System.Threading.Tasks;
 
 namespace aplikacja.Models
@@ -12,6 +17,7 @@ namespace aplikacja.Models
     {
         public static List<ShopPart> _parts = new List<ShopPart>()
         {
+<<<<<<< HEAD
             new ShopPart { Name="Ab", Type="CPU", Price=2.40, Cart=false},
             new ShopPart { Name="Bc", Type="PSU", Price=142.45, Cart=false},
             new ShopPart { Name="Cd", Type="HDD", Price=50.31, Cart = false},
@@ -19,6 +25,15 @@ namespace aplikacja.Models
             new ShopPart { Name="Ef", Type="CPU", Price=7.00, Cart = false},
             new ShopPart { Name="Fg", Type="SSD", Price=537.77, Cart = false},
             new ShopPart { Name="Gh", Type="Case", Price=70.50, Cart = false}
+=======
+            new ShopPart { Name="Ab", Type="CPU"},
+            new ShopPart { Name="Bc", Type="PSU"},
+            new ShopPart { Name="Cd", Type="HDD"},
+            new ShopPart { Name="De", Type="GPU"},
+            new ShopPart { Name="Ef", Type="CPU"},
+            new ShopPart { Name="Fg", Type="SSD"},
+            new ShopPart { Name="Gh", Type="Case"}
+>>>>>>> origin/main
         };
 
         public static List<ShopPart> GetShopParts() => _parts;
@@ -27,8 +42,11 @@ namespace aplikacja.Models
             var parts = _parts.Where(x => !string.IsNullOrWhiteSpace(x.Name) && x.Name.Contains(filterText, StringComparison.OrdinalIgnoreCase) || !string.IsNullOrWhiteSpace(x.Type) && x.Type.Contains(filterText, StringComparison.OrdinalIgnoreCase))?.ToList();
             return parts;
         }
+<<<<<<< HEAD
         public static bool AddCart() { 
             return true;
         }
+=======
+>>>>>>> origin/main
     }
 }

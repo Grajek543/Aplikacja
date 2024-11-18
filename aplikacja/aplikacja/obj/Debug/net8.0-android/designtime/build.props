@@ -24,7 +24,11 @@ androidgeneratejnimarshalmethods=false
 os=windows_nt
 androidincludedebugsymbols=true
 androidpackagenamingpolicy=lowercasecrc64
+<<<<<<< HEAD
 _nugetassetstimestamp=638668504483771183
+=======
+_nugetassetstimestamp=638670094432907360
+>>>>>>> origin/main
 typemapkind=strings-asm
 androidmanifestplaceholders=
 projectfullpath=d:\app\aplikacja\aplikacja\aplikacja\aplikacja.csproj

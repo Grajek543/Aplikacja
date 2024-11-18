@@ -167,6 +167,7 @@
         
     </local:zakladka2>
 
+<<<<<<< HEAD
     <ContentPage IconImageSource="ustawienia.png">
         <Label Text="Ustawienia">
         </Label>
@@ -176,4 +177,13 @@
         <Label Text="Ustawienia konta">
         </Label>
     </ContentPage>
+=======
+    <local:zakladka3 IconImageSource="ustawienia.png">
+        
+    </local:zakladka3>
+
+    <local:zakladka4 IconImageSource="konto.png">
+        
+    </local:zakladka4>
+>>>>>>> origin/main
 </TabbedPage>

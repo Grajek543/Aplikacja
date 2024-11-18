@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 AdbTarget=-s R5CWB0EQSGZ
+=======
+AdbTarget=-s emulator-5554
+>>>>>>> origin/main
 AdbOptions=

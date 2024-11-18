@@ -14,7 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("aplikacja")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+30065f8aafc76a6a2cc4168e6f20791a5c6361ba")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+2d76010f19c7422c9f413fa546c2831cf09994bd")]
+>>>>>>> origin/main
 [assembly: System.Reflection.AssemblyProductAttribute("aplikacja")]
 [assembly: System.Reflection.AssemblyTitleAttribute("aplikacja")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

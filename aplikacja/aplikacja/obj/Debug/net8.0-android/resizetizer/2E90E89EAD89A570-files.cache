@@ -1,6 +1,9 @@
 ﻿obj\Debug\net8.0-android\resizetizer\r\drawable\konto.png
+obj\Debug\net8.0-android\resizetizer\r\drawable\lock.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\pc.png
+obj\Debug\net8.0-android\resizetizer\r\drawable\sign.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\sklep.webp
+obj\Debug\net8.0-android\resizetizer\r\drawable\tlo1.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\ustawienia.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\wozek.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\dotnet_bot.png
