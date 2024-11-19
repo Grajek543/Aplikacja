@@ -167,12 +167,11 @@
         
     </local:zakladka2>
 
-    <ContentPage IconImageSource="ustawienia.png">
-        <Label Text="Ustawienia">
-        </Label>
-    </ContentPage>
+    <local:zakladka3 IconImageSource="ustawienia.png">
+        
+    </local:zakladka3>
 
     <local:zakladka4 IconImageSource="konto.png">
-
+        
     </local:zakladka4>
 </TabbedPage>

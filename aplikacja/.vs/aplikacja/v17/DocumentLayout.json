@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Grzegorz\\Desktop\\yt\\Aplikacja\\aplikacja\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7C31B84D-7D99-4E21-B114-9F56A9BB0C3D}|aplikacja\\aplikacja.csproj|c:\\users\\grzegorz\\desktop\\yt\\aplikacja\\aplikacja\\aplikacja\\strony\\zakladki\\rejestracja.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7C31B84D-7D99-4E21-B114-9F56A9BB0C3D}|aplikacja\\aplikacja.csproj|solutionrelative:aplikacja\\strony\\zakladki\\rejestracja.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C31B84D-7D99-4E21-B114-9F56A9BB0C3D}|aplikacja\\aplikacja.csproj|c:\\users\\grzegorz\\desktop\\yt\\aplikacja\\aplikacja\\aplikacja\\strony\\zakladki\\rejestracja.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C31B84D-7D99-4E21-B114-9F56A9BB0C3D}|aplikacja\\aplikacja.csproj|solutionrelative:aplikacja\\strony\\zakladki\\rejestracja.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C31B84D-7D99-4E21-B114-9F56A9BB0C3D}|aplikacja\\aplikacja.csproj|c:\\users\\grzegorz\\desktop\\yt\\aplikacja\\aplikacja\\aplikacja\\strony\\zakladki\\zakladka4.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C31B84D-7D99-4E21-B114-9F56A9BB0C3D}|aplikacja\\aplikacja.csproj|solutionrelative:aplikacja\\strony\\zakladki\\zakladka4.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7C31B84D-7D99-4E21-B114-9F56A9BB0C3D}|aplikacja\\aplikacja.csproj|c:\\users\\grzegorz\\desktop\\yt\\aplikacja\\aplikacja\\aplikacja\\strony\\zakladki\\zakladka4.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{7C31B84D-7D99-4E21-B114-9F56A9BB0C3D}|aplikacja\\aplikacja.csproj|solutionrelative:aplikacja\\strony\\zakladki\\zakladka4.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7C31B84D-7D99-4E21-B114-9F56A9BB0C3D}|aplikacja\\aplikacja.csproj|c:\\users\\grzegorz\\desktop\\yt\\aplikacja\\aplikacja\\aplikacja\\strony\\zakladki\\zakladka2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{7C31B84D-7D99-4E21-B114-9F56A9BB0C3D}|aplikacja\\aplikacja.csproj|solutionrelative:aplikacja\\strony\\zakladki\\zakladka2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C31B84D-7D99-4E21-B114-9F56A9BB0C3D}|aplikacja\\aplikacja.csproj|c:\\users\\grzegorz\\desktop\\yt\\aplikacja\\aplikacja\\aplikacja\\strony\\zakladki\\zakladka4.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C31B84D-7D99-4E21-B114-9F56A9BB0C3D}|aplikacja\\aplikacja.csproj|solutionrelative:aplikacja\\strony\\zakladki\\zakladka4.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7C31B84D-7D99-4E21-B114-9F56A9BB0C3D}|aplikacja\\aplikacja.csproj|c:\\users\\grzegorz\\desktop\\yt\\aplikacja\\aplikacja\\aplikacja\\strony\\zakladki\\zakladka2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -64,11 +72,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
+              "Title": "Rejestracja.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Grzegorz\\Desktop\\yt\\Aplikacja\\aplikacja\\aplikacja\\strony\\zakladki\\Rejestracja.xaml.cs",
+              "RelativeDocumentMoniker": "aplikacja\\strony\\zakladki\\Rejestracja.xaml.cs",
+              "ToolTip": "C:\\Users\\Grzegorz\\Desktop\\yt\\Aplikacja\\aplikacja\\aplikacja\\strony\\zakladki\\Rejestracja.xaml.cs",
+              "RelativeToolTip": "aplikacja\\strony\\zakladki\\Rejestracja.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T10:51:10.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Rejestracja.xaml",
+              "DocumentMoniker": "C:\\Users\\Grzegorz\\Desktop\\yt\\Aplikacja\\aplikacja\\aplikacja\\strony\\zakladki\\Rejestracja.xaml",
+              "RelativeDocumentMoniker": "aplikacja\\strony\\zakladki\\Rejestracja.xaml",
+              "ToolTip": "C:\\Users\\Grzegorz\\Desktop\\yt\\Aplikacja\\aplikacja\\aplikacja\\strony\\zakladki\\Rejestracja.xaml",
+              "RelativeToolTip": "aplikacja\\strony\\zakladki\\Rejestracja.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-19T10:51:09.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Microsoft.UI.Xaml.Markup.Compiler.interop.targets",
               "DocumentMoniker": "C:\\Users\\Grzegorz\\.nuget\\packages\\microsoft.windowsappsdk\\1.5.240627000\\buildTransitive\\Microsoft.UI.Xaml.Markup.Compiler.interop.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\.nuget\\packages\\microsoft.windowsappsdk\\1.5.240627000\\buildTransitive\\Microsoft.UI.Xaml.Markup.Compiler.interop.targets",
@@ -80,7 +114,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "zakladka1.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Grzegorz\\Desktop\\yt\\Aplikacja\\aplikacja\\aplikacja\\strony\\zakladki\\zakladka1.xaml.cs",
               "RelativeDocumentMoniker": "aplikacja\\strony\\zakladki\\zakladka1.xaml.cs",
@@ -92,20 +126,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "zakladka4.xaml",
               "DocumentMoniker": "C:\\Users\\Grzegorz\\Desktop\\yt\\Aplikacja\\aplikacja\\aplikacja\\strony\\zakladki\\zakladka4.xaml",
               "RelativeDocumentMoniker": "aplikacja\\strony\\zakladki\\zakladka4.xaml",
               "ToolTip": "C:\\Users\\Grzegorz\\Desktop\\yt\\Aplikacja\\aplikacja\\aplikacja\\strony\\zakladki\\zakladka4.xaml",
               "RelativeToolTip": "aplikacja\\strony\\zakladki\\zakladka4.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-11-11T12:58:11.738Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "stronanav1.xaml",
               "DocumentMoniker": "C:\\Users\\Grzegorz\\Desktop\\yt\\Aplikacja\\aplikacja\\aplikacja\\strony\\navigacja\\stronanav1.xaml",
               "RelativeDocumentMoniker": "aplikacja\\strony\\navigacja\\stronanav1.xaml",
@@ -117,7 +151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "zakladka2.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Grzegorz\\Desktop\\yt\\Aplikacja\\aplikacja\\aplikacja\\strony\\zakladki\\zakladka2.xaml.cs",
               "RelativeDocumentMoniker": "aplikacja\\strony\\zakladki\\zakladka2.xaml.cs",
@@ -135,14 +169,14 @@
               "RelativeDocumentMoniker": "aplikacja\\strony\\zakladki\\zakladka4.xaml.cs",
               "ToolTip": "C:\\Users\\Grzegorz\\Desktop\\yt\\Aplikacja\\aplikacja\\aplikacja\\strony\\zakladki\\zakladka4.xaml.cs",
               "RelativeToolTip": "aplikacja\\strony\\zakladki\\zakladka4.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-11T20:07:06.643Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "stronanav1.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Grzegorz\\Desktop\\yt\\Aplikacja\\aplikacja\\aplikacja\\strony\\navigacja\\stronanav1.xaml.cs",
               "RelativeDocumentMoniker": "aplikacja\\strony\\navigacja\\stronanav1.xaml.cs",
@@ -154,7 +188,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "stronanav2.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Grzegorz\\Desktop\\yt\\Aplikacja\\aplikacja\\aplikacja\\strony\\navigacja\\stronanav2.xaml.cs",
               "RelativeDocumentMoniker": "aplikacja\\strony\\navigacja\\stronanav2.xaml.cs",
@@ -166,7 +200,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "zakladka2.xaml",
               "DocumentMoniker": "C:\\Users\\Grzegorz\\Desktop\\yt\\Aplikacja\\aplikacja\\aplikacja\\strony\\zakladki\\zakladka2.xaml",
               "RelativeDocumentMoniker": "aplikacja\\strony\\zakladki\\zakladka2.xaml",
@@ -174,12 +208,11 @@
               "RelativeToolTip": "aplikacja\\strony\\zakladki\\zakladka2.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-02T15:40:57.243Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-02T15:40:57.243Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "stronanav2.xaml",
               "DocumentMoniker": "C:\\Users\\Grzegorz\\Desktop\\yt\\Aplikacja\\aplikacja\\aplikacja\\strony\\navigacja\\stronanav2.xaml",
               "RelativeDocumentMoniker": "aplikacja\\strony\\navigacja\\stronanav2.xaml",
@@ -191,7 +224,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "ShopPartList.cs",
               "DocumentMoniker": "C:\\Users\\Grzegorz\\Desktop\\yt\\Aplikacja\\aplikacja\\aplikacja\\Models\\ShopPartList.cs",
               "RelativeDocumentMoniker": "aplikacja\\Models\\ShopPartList.cs",
@@ -203,7 +236,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "ShopPart.cs",
               "DocumentMoniker": "C:\\Users\\Grzegorz\\Desktop\\yt\\Aplikacja\\aplikacja\\aplikacja\\Models\\ShopPart.cs",
               "RelativeDocumentMoniker": "aplikacja\\Models\\ShopPart.cs",
@@ -215,7 +248,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "zakladka1.xaml",
               "DocumentMoniker": "C:\\Users\\Grzegorz\\Desktop\\yt\\Aplikacja\\aplikacja\\aplikacja\\strony\\zakladki\\zakladka1.xaml",
               "RelativeDocumentMoniker": "aplikacja\\strony\\zakladki\\zakladka1.xaml",
@@ -227,7 +260,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "Microsoft.Maui.Resizetizer.After.targets",
               "DocumentMoniker": "C:\\Users\\Grzegorz\\.nuget\\packages\\microsoft.maui.resizetizer\\8.0.82\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\.nuget\\packages\\microsoft.maui.resizetizer\\8.0.82\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",

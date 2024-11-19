@@ -25,7 +25,7 @@
                     </Grid>
                     <Button Margin="0,50,0,0" BackgroundColor="violet" HeightRequest="60" Text="Zaloguj" TextColor="black"/>
                     <Label Margin="0,50,0,-10" HorizontalOptions="Center" Text="Zapomniałeś/aś hasła?" TextColor="Blue" TextDecorations="Underline"/>
-                    <Button Margin="0,30,0,0" BackgroundColor="white" HeightRequest="60" Text="Załż konto" TextColor="#4F3F9B"/>
+                    <Button Margin="0,30,0,0" BackgroundColor="white" HeightRequest="60" Text="Załóż konto" Clicked="OnButtonClicked" TextColor="#4F3F9B"/>
                 </VerticalStackLayout>
             </Grid>
         </Grid>

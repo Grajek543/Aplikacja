@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="aplikacja.strony.zakladki.Rejestracja"
+             Title="Rejestracja">
+    <Grid RowDefinitions="0.09*,0.91*">
+        <Image Aspect="AspectFill" HeightRequest="65" Source="tlo1.png"></Image>
+        <Grid Grid.Row="0" BackgroundColor="violet" Opacity="0.5">
+            <Button x:Name="CloseButton" Text="powrót" Clicked="closebutton" HorizontalOptions="Start"></Button>
+            <Label HorizontalOptions="Center" VerticalOptions="Start" TextColor="DarkViolet" FontAttributes="Bold" FontFamily="Tiny5" FontSize="25">Ustawienia Konta</Label>
+        </Grid>
+        <Grid Grid.Row="1">
+            <Grid Grid.Column="1">
+                <RoundRectangle Margin="-5,-15,-5,0" CornerRadius="30,30,0,0" Fill="white"></RoundRectangle>
+                <VerticalStackLayout Margin="30,0,30,0">
+                    <Label FontAttributes="Bold" FontFamily="bold" FontSize="Medium" Text="Witaj!" TextColor="#2D2D2D" />
+                    <Label FontFamily="medium" Text="Zarejestruj się" TextColor="#a3a3a4" />
+                    <Grid Margin="0,100,0,0" ColumnDefinitions="0.2*,0.8*">
+                        <RoundRectangle BackgroundColor="#EDEBF6" CornerRadius="10" HeightRequest="60" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="60"/>
+                        <Image HorizontalOptions="Center" Source="sign.png"/>
+                        <Entry TextColor="black" Grid.Column="1" Placeholder="e-mail" VerticalOptions="Center"/>
+                    </Grid>
+                    <Grid Margin="0,50,0,0" ColumnDefinitions="0.2*,0.8*">
+                        <RoundRectangle BackgroundColor="#EDEBF6" CornerRadius="10" HeightRequest="60" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="60"/>
+                        <Image HorizontalOptions="Center" Source="sign.png" />
+                        <Entry TextColor="black" Grid.Column="1" Placeholder="Login" VerticalOptions="Center" IsPassword="true"/>
+                    </Grid>
+                    <Grid Margin="0,50,0,0" ColumnDefinitions="0.2*,0.8*">
+                        <RoundRectangle BackgroundColor="#EDEBF6" CornerRadius="10" HeightRequest="60" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="60"/>
+                        <Image HorizontalOptions="Center" Source="lock.png" />
+                        <Entry TextColor="black" Grid.Column="1" Placeholder="Hasło" VerticalOptions="Center" IsPassword="true"/>
+                    </Grid>
+                    <Button Margin="0,50,0,0" BackgroundColor="violet" HeightRequest="60" Text="Zarejestruj" TextColor="black"/>
+                </VerticalStackLayout>
+            </Grid>
+        </Grid>
+    </Grid>
+</ContentPage>

@@ -33,6 +33,12 @@
     <MauiXaml Update="strony\normal\strona3.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="strony\zakladki\Rejestracja.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="strony\zakladki\zakladka3.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="strony\zakladki\zakladka1.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>

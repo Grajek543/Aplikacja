@@ -6,4 +6,9 @@ public partial class zakladka4 : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    async void OnButtonClicked(object sender, EventArgs args)
+    {
+        Navigation.PushModalAsync(new Rejestracja());
+    }
 }

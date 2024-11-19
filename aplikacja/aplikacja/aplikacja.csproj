@@ -72,6 +72,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Compile Update="strony\zakladki\zakladka3.xaml.cs">
+	    <DependentUpon>zakladka3.xaml</DependentUpon>
+	  </Compile>
 	  <Compile Update="strony\zakladki\zakladka2.xaml.cs">
 	    <DependentUpon>zakladka2.xaml</DependentUpon>
 	  </Compile>
@@ -94,6 +97,12 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="strony\normal\strona3.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="strony\zakladki\Rejestracja.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="strony\zakladki\zakladka3.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="strony\zakladki\zakladka1.xaml">

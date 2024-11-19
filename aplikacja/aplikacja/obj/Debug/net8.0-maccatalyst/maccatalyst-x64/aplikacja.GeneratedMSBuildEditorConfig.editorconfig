@@ -52,6 +52,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = aplikacja.strony.navigacja
 build_metadata.AdditionalFiles.TargetPath = strony\navigacja\stronanav3.xaml
 build_metadata.AdditionalFiles.RelativePath = strony\navigacja\stronanav3.xaml
 
+[C:/Users/Grzegorz/Desktop/yt/Aplikacja/aplikacja/aplikacja/strony/normal/CartPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = aplikacja.strony.normal.CartPage.xaml
+build_metadata.AdditionalFiles.TargetPath = strony\normal\CartPage.xaml
+build_metadata.AdditionalFiles.RelativePath = strony\normal\CartPage.xaml
+
 [C:/Users/Grzegorz/Desktop/yt/Aplikacja/aplikacja/aplikacja/strony/normal/strona1.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = aplikacja.strony.normal.strona1.xaml
@@ -70,6 +76,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = aplikacja.strony.normal.st
 build_metadata.AdditionalFiles.TargetPath = strony\normal\strona3.xaml
 build_metadata.AdditionalFiles.RelativePath = strony\normal\strona3.xaml
 
+[C:/Users/Grzegorz/Desktop/yt/Aplikacja/aplikacja/aplikacja/strony/zakladki/Rejestracja.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = aplikacja.strony.zakladki.Rejestracja.xaml
+build_metadata.AdditionalFiles.TargetPath = strony\zakladki\Rejestracja.xaml
+build_metadata.AdditionalFiles.RelativePath = strony\zakladki\Rejestracja.xaml
+
 [C:/Users/Grzegorz/Desktop/yt/Aplikacja/aplikacja/aplikacja/strony/zakladki/zakladka1.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = aplikacja.strony.zakladki.zakladka1.xaml
@@ -81,6 +93,12 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = aplikacja.strony.zakladki.zakladka2.xaml
 build_metadata.AdditionalFiles.TargetPath = strony\zakladki\zakladka2.xaml
 build_metadata.AdditionalFiles.RelativePath = strony\zakladki\zakladka2.xaml
+
+[C:/Users/Grzegorz/Desktop/yt/Aplikacja/aplikacja/aplikacja/strony/zakladki/zakladka3.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = aplikacja.strony.zakladki.zakladka3.xaml
+build_metadata.AdditionalFiles.TargetPath = strony\zakladki\zakladka3.xaml
+build_metadata.AdditionalFiles.RelativePath = strony\zakladki\zakladka3.xaml
 
 [C:/Users/Grzegorz/Desktop/yt/Aplikacja/aplikacja/aplikacja/strony/zakladki/zakladka4.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
