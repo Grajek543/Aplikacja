@@ -14,6 +14,7 @@ public partial class zakladka2 : ContentPage
         InitializeComponent();
         var parts = new ObservableCollection<ShopPart>(ShopPartList.GetShopParts());
         shoplist.ItemsSource = parts;
+        BindingContext = parts;
     }
 
     private void SearchBar_TextChanged(object sender, TextChangedEventArgs e)
@@ -32,6 +33,7 @@ public partial class zakladka2 : ContentPage
 
     public void ToCart_Clicked(object sender, EventArgs e)
     {
+        
         ((Button)sender).Background = ButtonDownBrush;
     }
 }

@@ -13,9 +13,9 @@ androidlinkskip=
 androidsdkbuildtoolsversion=34.0.0
 androidsdkpath=d:\android\android-sdk\
 androidndkpath=
-javasdkpath=d:\android\openjdk\jdk-17.0.8.101-hotspot\
+javasdkpath=d:\android\openjdk\jdk-17.0.12\
 androidsequencepointsmode=none
-androidnetsdkversion=34.0.113
+androidnetsdkversion=34.0.145
 monosymbolarchive=false
 androiduselatestplatformsdk=false
 targetframeworkversion=v8.0
@@ -24,11 +24,7 @@ androidgeneratejnimarshalmethods=false
 os=windows_nt
 androidincludedebugsymbols=true
 androidpackagenamingpolicy=lowercasecrc64
-<<<<<<< HEAD
-_nugetassetstimestamp=638668504483771183
-=======
-_nugetassetstimestamp=638670094432907360
->>>>>>> origin/main
+_nugetassetsfilehash=69a2fdab9e78240a68c9646ce0f6dc7d0b5d95b6826113b12008478a5784880c
 typemapkind=strings-asm
 androidmanifestplaceholders=
 projectfullpath=d:\app\aplikacja\aplikacja\aplikacja\aplikacja.csproj

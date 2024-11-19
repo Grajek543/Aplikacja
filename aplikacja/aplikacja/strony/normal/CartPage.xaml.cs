@@ -12,8 +12,9 @@ public partial class CartPage : ContentPage
 	public CartPage()
 	{
 		InitializeComponent();
-        var parts = new ObservableCollection<ShopPart>(ShopPartList.GetShopParts());
+        var parts = new ObservableCollection<ShopPart>(ShopPartList.CartParts());
         shoplist.ItemsSource = parts;
+        BindingContext = parts;
     }
 
     private void SearchBar_TextChanged(object sender, TextChangedEventArgs e)

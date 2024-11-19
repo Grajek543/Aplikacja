@@ -30,7 +30,7 @@
                                     </Grid.RowDefinitions>
                                     <Label Grid.Column="0" Grid.Row="0" FontSize="20" Text="{Binding Name}" TextColor="White"/>
                                     <Label Grid.Column="0" Grid.Row="1" Text="{Binding Type}" TextColor="LightGray"/>
-                                    <Label Grid.Column="1" Grid.Row="0" HorizontalOptions="Center" FontSize="16" Text="{Binding Price}" TextColor="White"/>
+                                    <Label Grid.Column="1" Grid.Row="0" HorizontalOptions="Center" FontSize="16" Text="{Binding Cena}" TextColor="White"/>
                                     <Button Grid.Column="1" Grid.Row="1" Grid.RowSpan="2" BackgroundColor="IndianRed" HorizontalOptions="End" Text="Add to Cart"/>
                                 </Grid>
                             </Frame>
