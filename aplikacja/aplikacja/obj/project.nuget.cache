@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MBGdKVSY9XQ=",
+  "dgSpecHash": "f0d4e1Xcsgk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Grzegorz\\Desktop\\projekty\\Aplikacja\\aplikacja\\aplikacja\\aplikacja.csproj",
+  "projectFilePath": "C:\\Users\\Grzegorz\\Desktop\\yt\\Aplikacja\\aplikacja\\aplikacja\\aplikacja.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Grzegorz\\.nuget\\packages\\firebirdsql.data.firebirdclient\\10.3.1\\firebirdsql.data.firebirdclient.10.3.1.nupkg.sha512",
     "C:\\Users\\Grzegorz\\.nuget\\packages\\googlegson\\2.10.1.4\\googlegson.2.10.1.4.nupkg.sha512",
