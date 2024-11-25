@@ -31,9 +31,8 @@ public partial class zakladka2 : ContentPage
     private static readonly SolidColorBrush ButtonDownBrush = SolidColorBrush.Gray;
     private static readonly SolidColorBrush ButtonUpBrush = SolidColorBrush.IndianRed;
 
-    public void ToCart_Clicked(object sender, EventArgs e)
+    /*public void ToCart_Clicked(object sender, EventArgs e)
     {
-        
         ((Button)sender).Background = ButtonDownBrush;
-    }
+    }*/
 }

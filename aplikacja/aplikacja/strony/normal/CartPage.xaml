@@ -22,16 +22,20 @@
                                     <Grid.ColumnDefinitions>
                                         <ColumnDefinition />
                                         <ColumnDefinition />
+                                        <ColumnDefinition />
+                                        <ColumnDefinition />
                                     </Grid.ColumnDefinitions>
                                     <Grid.RowDefinitions>
                                         <RowDefinition />
                                         <RowDefinition />
                                         <RowDefinition />
                                     </Grid.RowDefinitions>
-                                    <Label Grid.Column="0" Grid.Row="0" FontSize="20" Text="{Binding Name}" TextColor="White"/>
-                                    <Label Grid.Column="0" Grid.Row="1" Text="{Binding Type}" TextColor="LightGray"/>
-                                    <Label Grid.Column="1" Grid.Row="0" HorizontalOptions="Center" FontSize="16" Text="{Binding Cena}" TextColor="White"/>
-                                    <Button Grid.Column="1" Grid.Row="1" Grid.RowSpan="2" BackgroundColor="IndianRed" HorizontalOptions="End" Text="Add to Cart"/>
+                                    <Label Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" Grid.RowSpan="2" FontSize="24" Text="{Binding Name}" TextColor="White"/>
+                                    <Label Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="2" Text="{Binding Type}" TextColor="LightGray"/>
+                                    <Label Grid.Column="2" Grid.Row="0" Grid.ColumnSpan="2" Grid.RowSpan="2" HorizontalOptions="Center" FontSize="20" Text="{Binding Cena}" TextColor="White"/>
+                                    <!--<Button x:Name="ToCart" Clicked="ToCart_Clicked" Grid.Column="1" Grid.Row="1" Grid.RowSpan="2" BackgroundColor="IndianRed" 
+                                        HorizontalOptions="End" BindingContext="{Binding Cena}" Text="Add to Cart"/>-->
+                                    <Switch x:Name="ToCart" Grid.Column="3" Grid.Row="2" HorizontalOptions="Start" ThumbColor="IndianRed" IsToggled="{Binding Cart, Mode=TwoWay}" Toggled="ToCart_Toggled"/>
                                 </Grid>
                             </Frame>
                         </DataTemplate>

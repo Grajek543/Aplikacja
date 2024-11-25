@@ -34,13 +34,5 @@ namespace aplikacja.Models
             var parts = _parts.Where(x => !string.IsNullOrWhiteSpace(x.Name) && x.Name.Contains(filterText, StringComparison.OrdinalIgnoreCase) || !string.IsNullOrWhiteSpace(x.Type) && x.Type.Contains(filterText, StringComparison.OrdinalIgnoreCase))?.ToList();
             return parts;
         }
-
-        public static bool AddCart() { 
-            return true;
-        }
-        public void Clicked()
-        {
-            Console.WriteLine("egg");
-        }
     }
 }
