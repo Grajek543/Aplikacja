@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PARTPICKER.strony.zakladki.zakladka2"
+             Title="">
+    <ContentPage.Background>
+        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+            <GradientStop Color="LightGray" Offset="0.0" />
+            <GradientStop Color="Gray" Offset="1.0" />
+        </LinearGradientBrush>
+    </ContentPage.Background>
+    <Grid>
+        <ScrollView>
+            <VerticalStackLayout>
+                <Label Text="Buy parts!" HorizontalOptions="Center" FontFamily="Tiny5" FontSize="24" Padding="20" />
+                <SearchBar Placeholder="Search Parts" TextChanged="SearchBar_TextChanged"/>
+                <CollectionView x:Name="shoplist">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Frame Margin="8" BackgroundColor="RosyBrown">
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition />
+                                        <ColumnDefinition />
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition />
+                                        <RowDefinition />
+                                        <RowDefinition />
+                                    </Grid.RowDefinitions>
+                                    <Label Grid.Column="0" Grid.Row="0" FontSize="20" Text="{Binding Name}" TextColor="White"/>
+                                    <Label Grid.Column="0" Grid.Row="1" Text="{Binding Type}" TextColor="LightGray"/>
+                                    <Label Grid.Column="1" Grid.Row="0" HorizontalOptions="Center" FontSize="16" Text="{Binding Cena}" TextColor="White"/>
+                                    <Button x:Name="ToCart" Clicked="ToCart_Clicked" Grid.Column="1" Grid.Row="1" Grid.RowSpan="2" BackgroundColor="IndianRed" HorizontalOptions="End" Text="Add to Cart"/>
+                                </Grid>
+                            </Frame>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </VerticalStackLayout>
+        </ScrollView>
+        <Button x:Name="toCartPage" Clicked="toCartPage_Clicked" Margin="10" BackgroundColor="IndianRed" CornerRadius="30" BorderWidth="1" BorderColor="LightGray" ImageSource="wozek.png" MaximumHeightRequest="55" HorizontalOptions="End" VerticalOptions="End"></Button>
+    </Grid>
+</ContentPage>

@@ -1,0 +1,81 @@
+is_global = true
+build_property.MvvmToolkitEnableINotifyPropertyChangingSupport = true
+build_property.TargetFramework = net8.0-windows10.0.19041.0
+build_property.TargetPlatformMinVersion = 10.0.17763.0
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 9A19103F-16F7-4668-BE54-9A1E7A4F7556
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = PARTPICKER
+build_property.ProjectDir = C:\Users\Grzegorz\Desktop\studia\projekty\Aplikacja\PARTPICKER\PARTPICKER\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTAotOptimizerEnabled = true
+build_property.CsWinRTAotExportsEnabled = 
+build_property.CsWinRTRcwFactoryFallbackGeneratorForceOptIn = 
+build_property.CsWinRTRcwFactoryFallbackGeneratorForceOptOut = 
+build_property.CsWinRTCcwLookupTableGeneratorEnabled = true
+build_property.CsWinRTMergeReferencedActivationFactories = 
+build_property.CsWinRTAotWarningLevel = 
+
+[C:/Users/Grzegorz/Desktop/studia/projekty/Aplikacja/PARTPICKER/PARTPICKER/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PARTPICKER.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/Grzegorz/Desktop/studia/projekty/Aplikacja/PARTPICKER/PARTPICKER/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PARTPICKER.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/Grzegorz/Desktop/studia/projekty/Aplikacja/PARTPICKER/PARTPICKER/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PARTPICKER.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/Grzegorz/Desktop/studia/projekty/Aplikacja/PARTPICKER/PARTPICKER/strony/zakladki/CartPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PARTPICKER.strony.zakladki.CartPage.xaml
+build_metadata.AdditionalFiles.TargetPath = strony\zakladki\CartPage.xaml
+build_metadata.AdditionalFiles.RelativePath = strony\zakladki\CartPage.xaml
+
+[C:/Users/Grzegorz/Desktop/studia/projekty/Aplikacja/PARTPICKER/PARTPICKER/strony/zakladki/NewPage1.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PARTPICKER.strony.zakladki.NewPage1.xaml
+build_metadata.AdditionalFiles.TargetPath = strony\zakladki\NewPage1.xaml
+build_metadata.AdditionalFiles.RelativePath = strony\zakladki\NewPage1.xaml
+
+[C:/Users/Grzegorz/Desktop/studia/projekty/Aplikacja/PARTPICKER/PARTPICKER/strony/zakladki/Rejestracja.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PARTPICKER.strony.zakladki.Rejestracja.xaml
+build_metadata.AdditionalFiles.TargetPath = strony\zakladki\Rejestracja.xaml
+build_metadata.AdditionalFiles.RelativePath = strony\zakladki\Rejestracja.xaml
+
+[C:/Users/Grzegorz/Desktop/studia/projekty/Aplikacja/PARTPICKER/PARTPICKER/strony/zakladki/zakladka1.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PARTPICKER.strony.zakladki.zakladka1.xaml
+build_metadata.AdditionalFiles.TargetPath = strony\zakladki\zakladka1.xaml
+build_metadata.AdditionalFiles.RelativePath = strony\zakladki\zakladka1.xaml
+
+[C:/Users/Grzegorz/Desktop/studia/projekty/Aplikacja/PARTPICKER/PARTPICKER/strony/zakladki/zakladka2.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PARTPICKER.strony.zakladki.zakladka2.xaml
+build_metadata.AdditionalFiles.TargetPath = strony\zakladki\zakladka2.xaml
+build_metadata.AdditionalFiles.RelativePath = strony\zakladki\zakladka2.xaml
+
+[C:/Users/Grzegorz/Desktop/studia/projekty/Aplikacja/PARTPICKER/PARTPICKER/strony/zakladki/zakladka3.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PARTPICKER.strony.zakladki.zakladka3.xaml
+build_metadata.AdditionalFiles.TargetPath = strony\zakladki\zakladka3.xaml
+build_metadata.AdditionalFiles.RelativePath = strony\zakladki\zakladka3.xaml
+
+[C:/Users/Grzegorz/Desktop/studia/projekty/Aplikacja/PARTPICKER/PARTPICKER/strony/zakladki/zakladka4.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PARTPICKER.strony.zakladki.zakladka4.xaml
+build_metadata.AdditionalFiles.TargetPath = strony\zakladki\zakladka4.xaml
+build_metadata.AdditionalFiles.RelativePath = strony\zakladki\zakladka4.xaml
