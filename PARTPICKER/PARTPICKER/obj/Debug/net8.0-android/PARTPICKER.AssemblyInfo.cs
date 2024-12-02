@@ -14,12 +14,12 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PARTPICKER")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+e47a6775745089422064a6465678007635aa9204")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d0d4b9de3d98ef251457895ebfecb59e252c54e6")]
 [assembly: System.Reflection.AssemblyProductAttribute("PARTPICKER")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PARTPICKER")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
-[assembly: System.Runtime.Versioning.TargetPlatformAttribute("Android34.0")]
-[assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Android21.0")]
+[assembly: System.Runtime.Versioning.TargetPlatformAttribute("android0.0")]
+[assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("android21.0")]
 
 // Wygenerowane przez klasę WriteCodeFragment programu MSBuild.
 

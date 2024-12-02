@@ -25,6 +25,6 @@ public partial class zakladka2 : ContentPage
 
     public void ToCart_Clicked(object sender, EventArgs e)
     {
-        ((Button)sender).Background = ButtonDownBrush;
+        //((Button)sender).Background = ButtonDownBrush;
     }
 }
