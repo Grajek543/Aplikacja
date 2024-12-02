@@ -5,7 +5,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:PARTPICKER.strony.zakladki"
     Shell.FlyoutBehavior="Disabled"
-    Title="PARTPICKER" Shell.TabBarBackgroundColor="BlueViolet" Shell.TabBarTitleColor="white">
+    Title="PARTPICKER" Shell.TabBarBackgroundColor="BlueViolet" Shell.TabBarTitleColor="red" Shell.TabBarUnselectedColor="white">
     <TabBar>
         <Tab Icon="wozek.png">
             <ShellContent

@@ -15,7 +15,7 @@ namespace PARTPICKER.Services
         {
             if (db == null)
             {
-                var stream = await FileSystem.OpenAppPackageFileAsync("apppartpicker-firbase-adminsdk-s6m2t-fa164e03e6.json");
+                var stream = await FileSystem.OpenAppPackageFileAsync("Admin.json");
                 var reader = new StreamReader(stream);
                 var contents = reader.ReadToEnd();
 

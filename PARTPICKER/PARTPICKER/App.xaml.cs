@@ -7,7 +7,7 @@ namespace PARTPICKER
         {
             InitializeComponent();
 
-            MainPage = new zakladka1();
+            MainPage = new AppShell();
         }
     }
 }
