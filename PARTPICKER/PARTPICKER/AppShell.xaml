@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="PARTPICKER.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:PARTPICKER.strony.zakladki"
+    Shell.FlyoutBehavior="Disabled"
+    Title="PARTPICKER" Shell.TabBarBackgroundColor="BlueViolet" Shell.TabBarTitleColor="white">
+    <TabBar>
+        <Tab Icon="wozek.png">
+            <ShellContent
+        ContentTemplate="{DataTemplate local:zakladka1}"/>
+        </Tab>
+        <Tab Icon="ustawienia.png">
+            <ShellContent
+    ContentTemplate="{DataTemplate local:zakladka2}"/>
+        </Tab>
+        <Tab Icon="konto.png">
+            <ShellContent
+    ContentTemplate="{DataTemplate local:zakladka3}"/>
+        </Tab>
+        <Tab Icon="pc.png">
+            <ShellContent
+    ContentTemplate="{DataTemplate local:zakladka4}"/>
+        </Tab>
+        <Tab Icon="pc.png">
+            <ShellContent
+    ContentTemplate="{DataTemplate local:NewPage1}"/>
+        </Tab>
+    </TabBar>
+
+
+</Shell>
