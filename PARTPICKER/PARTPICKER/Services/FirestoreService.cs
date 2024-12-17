@@ -15,7 +15,7 @@ namespace PARTPICKER.Services
         {
             if (db == null)
             {
-                var stream = await FileSystem.OpenAppPackageFileAsync("Admin.json");
+                var stream = await FileSystem.OpenAppPackageFileAsync("apppartpicker-firebase-adminsdk-hcs8b-48fa859909.json");
                 var reader = new StreamReader(stream);
                 var contents = reader.ReadToEnd();
 
@@ -51,6 +51,29 @@ namespace PARTPICKER.Services
                 })
                 .ToList();
             return sampleModels;
+        }
+
+        public async Task InsertShopParts(ShopPart sample)
+        {
+            await SetupFirestore();
+            await db.Collection("SampleParts").AddAsync(sample);
+        }
+
+        public async Task<List<ShopPart>> GetShopParts()
+        {
+            await SetupFirestore();
+            var data = await db
+                            .Collection("SampleParts")
+                            .GetSnapshotAsync();
+            var sampleParts = data.Documents
+                .Select(doc =>
+                {
+                    var samplePart = doc.ConvertTo<ShopPart>();
+                    samplePart.Id = doc.Id; // FirebaseId hinzufügen
+                    return samplePart;
+                })
+                .ToList();
+            return sampleParts;
         }
 
     }

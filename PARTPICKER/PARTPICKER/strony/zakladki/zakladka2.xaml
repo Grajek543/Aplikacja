@@ -2,6 +2,9 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PARTPICKER.strony.zakladki.zakladka2"
+             xmlns:m="clr-namespace:PARTPICKER.Models"
+             xmlns:vm="clr-namespace:PARTPICKER.ViewModels"
+             x:DataType="vm:SPart"
              Title="">
     <ContentPage.Background>
         <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
@@ -14,14 +17,12 @@
             <VerticalStackLayout>
                 <Label Text="Buy parts!" HorizontalOptions="Center" FontFamily="Tiny5" FontSize="24" Padding="20" />
                 <SearchBar Placeholder="Search Parts" TextChanged="SearchBar_TextChanged"/>
-                <CollectionView x:Name="shoplist">
+                <CollectionView x:Name="shoplist" ItemsSource="{Binding ShopPartList}">
                     <CollectionView.ItemTemplate>
-                        <DataTemplate>
+                        <DataTemplate x:DataType="m:ShopPart">
                             <Frame Margin="8" BackgroundColor="RosyBrown">
                                 <Grid>
                                     <Grid.ColumnDefinitions>
-                                        <ColumnDefinition />
-                                        <ColumnDefinition />
                                         <ColumnDefinition />
                                         <ColumnDefinition />
                                     </Grid.ColumnDefinitions>
@@ -30,20 +31,10 @@
                                         <RowDefinition />
                                         <RowDefinition />
                                     </Grid.RowDefinitions>
-<<<<<<< HEAD:aplikacja/aplikacja/strony/zakladki/zakladka2.xaml
-                                    <Label Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" Grid.RowSpan="2" FontSize="24" Text="{Binding Name}" TextColor="White"/>
-                                    <Label Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="2" Text="{Binding Type}" TextColor="LightGray"/>
-                                    <Label Grid.Column="2" Grid.Row="0" Grid.ColumnSpan="2" Grid.RowSpan="2" HorizontalOptions="Center" FontSize="20" Text="{Binding Cena}" TextColor="White"/>
-                                    <!--<Button x:Name="ToCart" Clicked="ToCart_Clicked" Grid.Column="1" Grid.Row="1" Grid.RowSpan="2" BackgroundColor="IndianRed" 
-                                            HorizontalOptions="End" BindingContext="{Binding Cena}" Text="Add to Cart"/>-->
-                                    <Label Grid.Column="2" Grid.Row="2" Grid.ColumnSpan="2" HorizontalOptions="Center" VerticalOptions="Center" FontSize="18" TextColor="White" Text="Cart: "/>
-                                    <Switch Grid.Column="3" Grid.Row="2" HorizontalOptions="Center" VerticalOptions="Start" ThumbColor="IndianRed" IsToggled="{Binding Cart, Mode=TwoWay}"/>
-=======
                                     <Label Grid.Column="0" Grid.Row="0" FontSize="20" Text="{Binding Name}" TextColor="White"/>
                                     <Label Grid.Column="0" Grid.Row="1" Text="{Binding Type}" TextColor="LightGray"/>
                                     <Label Grid.Column="1" Grid.Row="0" HorizontalOptions="Center" FontSize="16" Text="{Binding Cena}" TextColor="White"/>
                                     <Button x:Name="ToCart" Clicked="ToCart_Clicked" Grid.Column="1" Grid.Row="1" Grid.RowSpan="2" BackgroundColor="IndianRed" HorizontalOptions="End" Text="Add to Cart"/>
->>>>>>> main:PARTPICKER/PARTPICKER/strony/zakladki/zakladka2.xaml
                                 </Grid>
                             </Frame>
                         </DataTemplate>
@@ -52,5 +43,6 @@
             </VerticalStackLayout>
         </ScrollView>
         <!--<Button x:Name="toCartPage" Clicked="toCartPage_Clicked" Margin="10" BackgroundColor="IndianRed" CornerRadius="30" BorderWidth="1" BorderColor="LightGray" ImageSource="wozek.png" MaximumHeightRequest="55" HorizontalOptions="End" VerticalOptions="End"></Button>-->
+        <Button x:Name="toCartPage" Command="{Binding GetPartDataCommand}" Margin="10" BackgroundColor="IndianRed" CornerRadius="30" BorderWidth="1" BorderColor="LightGray" ImageSource="wozek.png" MaximumHeightRequest="55" HorizontalOptions="End" VerticalOptions="End"></Button>
     </Grid>
 </ContentPage>
