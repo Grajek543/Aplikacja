@@ -1,0 +1,42 @@
+aotassemblies=false
+androidaddkeepalives=
+androidaotmode=interpreter
+androidembedprofilers=
+androidenableprofiledaot=
+androiddextool=d8
+androidlinktool=
+androidlinkresources=
+androidpackageformat=apk
+embedassembliesintoapk=false
+androidlinkmode=none
+androidlinkskip=
+androidsdkbuildtoolsversion=34.0.0
+androidsdkpath=d:\android\android-sdk\
+androidndkpath=
+<<<<<<< HEAD:aplikacja/aplikacja/obj/Debug/net8.0-android/build.props
+javasdkpath=d:\android\openjdk\jdk-17.0.12\
+=======
+javasdkpath=c:\program files (x86)\android\openjdk\jdk-17.0.12\
+>>>>>>> main:PARTPICKER/PARTPICKER/obj/Debug/net8.0-android/build.props
+androidsequencepointsmode=none
+androidnetsdkversion=34.0.145
+monosymbolarchive=false
+androiduselatestplatformsdk=false
+targetframeworkversion=v8.0
+androidcreatepackageperabi=
+androidgeneratejnimarshalmethods=false
+os=windows_nt
+androidincludedebugsymbols=true
+androidpackagenamingpolicy=lowercasecrc64
+<<<<<<< HEAD:aplikacja/aplikacja/obj/Debug/net8.0-android/build.props
+_nugetassetsfilehash=69a2fdab9e78240a68c9646ce0f6dc7d0b5d95b6826113b12008478a5784880c
+typemapkind=strings-asm
+androidmanifestplaceholders=
+projectfullpath=d:\app\aplikacja\aplikacja\aplikacja\aplikacja.csproj
+=======
+_nugetassetsfilehash=e59bb0130a80055d34409fe64a8187ec6f72e10df1562b3144ee4d6b10fc5bdd
+typemapkind=strings-asm
+androidmanifestplaceholders=
+projectfullpath=c:\users\grzegorz\desktop\clon\aplikacja\partpicker\partpicker\partpicker.csproj
+>>>>>>> main:PARTPICKER/PARTPICKER/obj/Debug/net8.0-android/build.props
+androidusedesignerassembly=true
