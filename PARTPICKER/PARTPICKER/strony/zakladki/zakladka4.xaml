@@ -25,6 +25,7 @@
                         <Entry x:Name="PasswordEntry" TextColor="black" Grid.Column="1" Placeholder="Hasło" VerticalOptions="Center" IsPassword="true" />
                     </Grid>
                     <Button Margin="0,50,0,0" BackgroundColor="violet" HeightRequest="60" Text="Zaloguj" TextColor="black" Clicked="OnLoginClicked"/>
+                    <Button Text="Logowanie biometryczne" Clicked="OnBiometricLoginClicked" />
                     <Label Margin="0,50,0,-10" HorizontalOptions="Center" Text="Zapomniałeś/aś hasła?" TextColor="Blue" TextDecorations="Underline"/>
                     <Button Margin="0,30,0,0" BackgroundColor="{DynamicResource SecondaryColor}" HeightRequest="60" Text="Załóż konto" Clicked="OnButtonClicked" TextColor="{DynamicResource TextColor}"/>
                 </VerticalStackLayout>

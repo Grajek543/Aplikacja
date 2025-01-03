@@ -1,4 +1,5 @@
-﻿using PARTPICKER.strony.zakladki;
+﻿using PARTPICKER.Services;
+using PARTPICKER.strony.zakladki;
 namespace PARTPICKER
 {
     public partial class App : Application
@@ -9,7 +10,11 @@ namespace PARTPICKER
 
             MainPage = new AppShell();
             SetTheme("Light"); // Domyślny motyw
+
         }
+        //autoobracanie:
+        
+
         public void SetTheme(string theme)
         {
             var resources = Application.Current.Resources;

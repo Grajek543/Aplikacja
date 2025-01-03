@@ -21,7 +21,8 @@ public partial class Rejestracja : ContentPage
         {
             var user = await CrossFirebaseAuth.Current.Instance.CreateUserWithEmailAndPasswordAsync(email, password);
             await DisplayAlert("Sukces", $"Utworzono konto: {user.User.Email}!", "OK");
-            await Navigation.PopAsync(); // Powrót na ekran logowania
+            await SecureStorage.SetAsync("email", email);
+            await SecureStorage.SetAsync("password", password);
         }
         catch (Exception ex)
         {
