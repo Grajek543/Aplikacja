@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pawel\\Desktop\\PARTPICKER\\PARTPICKER\\PARTPICKER.csproj": {}
+    "C:\\Users\\Grzegorz\\Desktop\\studia\\projekty\\Aplikacja\\Aplikacja\\PARTPICKER\\PARTPICKER\\PARTPICKER.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pawel\\Desktop\\PARTPICKER\\PARTPICKER\\PARTPICKER.csproj": {
+    "C:\\Users\\Grzegorz\\Desktop\\studia\\projekty\\Aplikacja\\Aplikacja\\PARTPICKER\\PARTPICKER\\PARTPICKER.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pawel\\Desktop\\PARTPICKER\\PARTPICKER\\PARTPICKER.csproj",
+        "projectUniqueName": "C:\\Users\\Grzegorz\\Desktop\\studia\\projekty\\Aplikacja\\Aplikacja\\PARTPICKER\\PARTPICKER\\PARTPICKER.csproj",
         "projectName": "PARTPICKER",
-        "projectPath": "C:\\Users\\pawel\\Desktop\\PARTPICKER\\PARTPICKER\\PARTPICKER.csproj",
-        "packagesPath": "C:\\Users\\pawel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pawel\\Desktop\\PARTPICKER\\PARTPICKER\\obj\\",
+        "projectPath": "C:\\Users\\Grzegorz\\Desktop\\studia\\projekty\\Aplikacja\\Aplikacja\\PARTPICKER\\PARTPICKER\\PARTPICKER.csproj",
+        "packagesPath": "C:\\Users\\Grzegorz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Grzegorz\\Desktop\\studia\\projekty\\Aplikacja\\Aplikacja\\PARTPICKER\\PARTPICKER\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\pawel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Grzegorz\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -31,7 +31,8 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
         },
         "frameworks": {
           "net8.0-android34.0": {
@@ -92,6 +93,18 @@
               "target": "Package",
               "version": "[8.0.11, )",
               "autoReferenced": true
+            },
+            "Plugin.Firebase.Core": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Plugin.FirebaseAuth": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Xamarin.Build.Download": {
+              "target": "Package",
+              "version": "[0.11.3, )"
             }
           },
           "imports": [
@@ -165,6 +178,18 @@
               "target": "Package",
               "version": "[8.0.11, )",
               "autoReferenced": true
+            },
+            "Plugin.Firebase.Core": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Plugin.FirebaseAuth": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Xamarin.Build.Download": {
+              "target": "Package",
+              "version": "[0.11.3, )"
             }
           },
           "imports": [
@@ -181,11 +206,11 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.iOS.Ref.net8.0_18.0",
-              "version": "[18.0.8316, 18.0.8316]"
+              "version": "[18.0.8319, 18.0.8319]"
             },
             {
               "name": "Microsoft.iOS.Runtime.iossimulator-x64.net8.0_18.0",
-              "version": "[18.0.8316, 18.0.8316]"
+              "version": "[18.0.8319, 18.0.8319]"
             }
           ],
           "frameworkReferences": {
@@ -226,6 +251,18 @@
               "target": "Package",
               "version": "[8.0.11, )",
               "autoReferenced": true
+            },
+            "Plugin.Firebase.Core": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Plugin.FirebaseAuth": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Xamarin.Build.Download": {
+              "target": "Package",
+              "version": "[0.11.3, )"
             }
           },
           "imports": [
@@ -243,11 +280,11 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.MacCatalyst.Ref.net8.0_18.0",
-              "version": "[18.0.8316, 18.0.8316]"
+              "version": "[18.0.8319, 18.0.8319]"
             },
             {
               "name": "Microsoft.MacCatalyst.Runtime.maccatalyst-x64.net8.0_18.0",
-              "version": "[18.0.8316, 18.0.8316]"
+              "version": "[18.0.8319, 18.0.8319]"
             }
           ],
           "frameworkReferences": {
@@ -282,6 +319,18 @@
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
               "version": "[8.0.83, )"
+            },
+            "Plugin.Firebase.Core": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Plugin.FirebaseAuth": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Xamarin.Build.Download": {
+              "target": "Package",
+              "version": "[0.11.3, )"
             }
           },
           "imports": [

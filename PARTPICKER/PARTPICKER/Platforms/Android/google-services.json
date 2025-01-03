@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "404981822596",
+    "project_id": "apppartpicker",
+    "storage_bucket": "apppartpicker.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:404981822596:android:8fbb857f74746e205efed1",
+        "android_client_info": {
+          "package_name": "com.aplikacja"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBpOPAVyfkG_qgc46DckQsILYeahTytG4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
