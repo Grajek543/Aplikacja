@@ -46513,11 +46513,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pawel\\Desktop\\PARTPICKER\\PARTPICKER\\PARTPICKER.csproj",
+      "projectUniqueName": "P:\\STUDIA\\PROJEKTY\\Mobilne\\Aplikacja\\PARTPICKER\\PARTPICKER\\PARTPICKER.csproj",
       "projectName": "PARTPICKER",
-      "projectPath": "C:\\Users\\pawel\\Desktop\\PARTPICKER\\PARTPICKER\\PARTPICKER.csproj",
+      "projectPath": "P:\\STUDIA\\PROJEKTY\\Mobilne\\Aplikacja\\PARTPICKER\\PARTPICKER\\PARTPICKER.csproj",
       "packagesPath": "C:\\Users\\pawel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pawel\\Desktop\\PARTPICKER\\PARTPICKER\\obj\\",
+      "outputPath": "P:\\STUDIA\\PROJEKTY\\Mobilne\\Aplikacja\\PARTPICKER\\PARTPICKER\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [

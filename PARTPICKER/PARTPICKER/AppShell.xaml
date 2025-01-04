@@ -7,19 +7,19 @@
     Shell.FlyoutBehavior="Disabled"
     Title="PARTPICKER" Shell.TabBarBackgroundColor="BlueViolet" Shell.TabBarTitleColor="red" Shell.TabBarUnselectedColor="white">
     <TabBar>
-        <Tab Icon="wozek.png">
+        <Tab Icon="pc.png">
             <ShellContent
         ContentTemplate="{DataTemplate local:zakladka1}"/>
         </Tab>
-        <Tab Icon="ustawienia.png">
+        <Tab Icon="wozek.png">
             <ShellContent
     ContentTemplate="{DataTemplate local:zakladka2}"/>
         </Tab>
-        <Tab Icon="konto.png">
+        <Tab Icon="ustawienia.png">
             <ShellContent
     ContentTemplate="{DataTemplate local:zakladka3}"/>
         </Tab>
-        <Tab Icon="pc.png">
+        <Tab Icon="konto.png">
             <ShellContent
     ContentTemplate="{DataTemplate local:zakladka4}"/>
         </Tab>

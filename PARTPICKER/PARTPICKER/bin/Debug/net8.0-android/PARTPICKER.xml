@@ -4,6 +4,21 @@
         <name>PARTPICKER</name>
     </assembly>
     <members>
+        <member name="E:PARTPICKER.Services.ILightSensorService.ReadingChanged">
+            <summary>
+            Wywoływane, gdy czujnik zwróci nową wartość światła (w luksach).
+            </summary>
+        </member>
+        <member name="M:PARTPICKER.Services.ILightSensorService.Start">
+            <summary>
+            Rozpocznij nasłuchiwanie czujnika światła.
+            </summary>
+        </member>
+        <member name="M:PARTPICKER.Services.ILightSensorService.Stop">
+            <summary>
+            Zatrzymaj nasłuchiwanie czujnika światła.
+            </summary>
+        </member>
         <member name="T:PARTPICKER.ViewModels.SampleVM">
             <inheritdoc/>
             <inheritdoc/>

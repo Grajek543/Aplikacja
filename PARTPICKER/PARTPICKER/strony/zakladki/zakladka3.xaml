@@ -36,6 +36,14 @@
             </CollectionView>
 
 
+            <Label x:Name="LightSensorLabel" 
+                   Text="Czujnik światła: --" 
+                   TextColor="{DynamicResource TextColor}" 
+                   FontSize="20"
+                   HorizontalOptions="Center" 
+                   VerticalOptions="Center" 
+                   Margin="10"/>
+            
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>
