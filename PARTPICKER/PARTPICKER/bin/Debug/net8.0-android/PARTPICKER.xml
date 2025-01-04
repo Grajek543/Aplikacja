@@ -19,6 +19,17 @@
             Zatrzymaj nasłuchiwanie czujnika światła.
             </summary>
         </member>
+        <member name="M:PARTPICKER.Services.IThemeManager.SetUserSelectedTheme(System.String)">
+            <summary>
+            Ustawia wybrany przez użytkownika motyw: "Light", "Dark", "Auto".
+            </summary>
+            <param name="theme">Motyw użytkownika.</param>
+        </member>
+        <member name="M:PARTPICKER.Services.IThemeManager.GetUserSelectedTheme">
+            <summary>
+            Zwraca aktualnie wybrany motyw przez użytkownika ("Light", "Dark", "Auto").
+            </summary>
+        </member>
         <member name="T:PARTPICKER.ViewModels.SampleVM">
             <inheritdoc/>
             <inheritdoc/>

@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "P:\\STUDIA\\PROJEKTY\\Mobilne\\Aplikacja\\PARTPICKER\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EE3C31E4-2D49-4CDB-825E-E20BC0F4068A}|PARTPICKER\\PARTPICKER.csproj|p:\\studia\\projekty\\mobilne\\aplikacja\\partpicker\\partpicker\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE3C31E4-2D49-4CDB-825E-E20BC0F4068A}|PARTPICKER\\PARTPICKER.csproj|solutionrelative:partpicker\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EE3C31E4-2D49-4CDB-825E-E20BC0F4068A}|PARTPICKER\\PARTPICKER.csproj|p:\\studia\\projekty\\mobilne\\aplikacja\\partpicker\\partpicker\\strony\\zakladki\\zakladka3.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EE3C31E4-2D49-4CDB-825E-E20BC0F4068A}|PARTPICKER\\PARTPICKER.csproj|solutionrelative:partpicker\\strony\\zakladki\\zakladka3.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EE3C31E4-2D49-4CDB-825E-E20BC0F4068A}|PARTPICKER\\PARTPICKER.csproj|p:\\studia\\projekty\\mobilne\\aplikacja\\partpicker\\partpicker\\strony\\zakladki\\zakladka3.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{EE3C31E4-2D49-4CDB-825E-E20BC0F4068A}|PARTPICKER\\PARTPICKER.csproj|solutionrelative:partpicker\\strony\\zakladki\\zakladka3.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE3C31E4-2D49-4CDB-825E-E20BC0F4068A}|PARTPICKER\\PARTPICKER.csproj|p:\\studia\\projekty\\mobilne\\aplikacja\\partpicker\\partpicker\\services\\thememanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE3C31E4-2D49-4CDB-825E-E20BC0F4068A}|PARTPICKER\\PARTPICKER.csproj|solutionrelative:partpicker\\services\\thememanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE3C31E4-2D49-4CDB-825E-E20BC0F4068A}|PARTPICKER\\PARTPICKER.csproj|p:\\studia\\projekty\\mobilne\\aplikacja\\partpicker\\partpicker\\services\\ithememanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE3C31E4-2D49-4CDB-825E-E20BC0F4068A}|PARTPICKER\\PARTPICKER.csproj|solutionrelative:partpicker\\services\\ithememanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EE3C31E4-2D49-4CDB-825E-E20BC0F4068A}|PARTPICKER\\PARTPICKER.csproj|p:\\studia\\projekty\\mobilne\\aplikacja\\partpicker\\partpicker\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -59,10 +71,6 @@
       "RelativeMoniker": "D:0:0:{EE3C31E4-2D49-4CDB-825E-E20BC0F4068A}|PARTPICKER\\PARTPICKER.csproj|solutionrelative:partpicker\\strony\\zakladki\\zakladka1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE3C31E4-2D49-4CDB-825E-E20BC0F4068A}|PARTPICKER\\PARTPICKER.csproj|p:\\studia\\projekty\\mobilne\\aplikacja\\partpicker\\partpicker\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE3C31E4-2D49-4CDB-825E-E20BC0F4068A}|PARTPICKER\\PARTPICKER.csproj|solutionrelative:partpicker\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EE3C31E4-2D49-4CDB-825E-E20BC0F4068A}|PARTPICKER\\PARTPICKER.csproj|p:\\studia\\projekty\\mobilne\\aplikacja\\partpicker\\partpicker\\resources\\raw\\aboutassets.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{EE3C31E4-2D49-4CDB-825E-E20BC0F4068A}|PARTPICKER\\PARTPICKER.csproj|solutionrelative:partpicker\\resources\\raw\\aboutassets.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
@@ -111,23 +119,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "NewPage1.xaml",
-              "DocumentMoniker": "P:\\STUDIA\\PROJEKTY\\Mobilne\\Aplikacja\\PARTPICKER\\PARTPICKER\\strony\\zakladki\\NewPage1.xaml",
-              "RelativeDocumentMoniker": "PARTPICKER\\strony\\zakladki\\NewPage1.xaml",
-              "ToolTip": "P:\\STUDIA\\PROJEKTY\\Mobilne\\Aplikacja\\PARTPICKER\\PARTPICKER\\strony\\zakladki\\NewPage1.xaml",
-              "RelativeToolTip": "PARTPICKER\\strony\\zakladki\\NewPage1.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-16T21:13:43.475Z"
+              "DocumentIndex": 3,
+              "Title": "ThemeManager.cs",
+              "DocumentMoniker": "P:\\STUDIA\\PROJEKTY\\Mobilne\\Aplikacja\\PARTPICKER\\PARTPICKER\\Services\\ThemeManager.cs",
+              "RelativeDocumentMoniker": "PARTPICKER\\Services\\ThemeManager.cs",
+              "ToolTip": "P:\\STUDIA\\PROJEKTY\\Mobilne\\Aplikacja\\PARTPICKER\\PARTPICKER\\Services\\ThemeManager.cs",
+              "RelativeToolTip": "PARTPICKER\\Services\\ThemeManager.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAwwE8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T18:20:00.847Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 4,
+              "Title": "IThemeManager.cs",
+              "DocumentMoniker": "P:\\STUDIA\\PROJEKTY\\Mobilne\\Aplikacja\\PARTPICKER\\PARTPICKER\\Services\\IThemeManager.cs",
+              "RelativeDocumentMoniker": "PARTPICKER\\Services\\IThemeManager.cs",
+              "ToolTip": "P:\\STUDIA\\PROJEKTY\\Mobilne\\Aplikacja\\PARTPICKER\\PARTPICKER\\Services\\IThemeManager.cs",
+              "RelativeToolTip": "PARTPICKER\\Services\\IThemeManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T18:19:32.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "CartPage.xaml",
               "DocumentMoniker": "P:\\STUDIA\\PROJEKTY\\Mobilne\\Aplikacja\\PARTPICKER\\PARTPICKER\\strony\\zakladki\\CartPage.xaml",
               "RelativeDocumentMoniker": "PARTPICKER\\strony\\zakladki\\CartPage.xaml",
@@ -139,7 +161,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "zakladka1.xaml",
               "DocumentMoniker": "P:\\STUDIA\\PROJEKTY\\Mobilne\\Aplikacja\\PARTPICKER\\PARTPICKER\\strony\\zakladki\\zakladka1.xaml",
               "RelativeDocumentMoniker": "PARTPICKER\\strony\\zakladki\\zakladka1.xaml",
@@ -151,7 +173,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "Colors.xaml",
               "DocumentMoniker": "P:\\STUDIA\\PROJEKTY\\Mobilne\\Aplikacja\\PARTPICKER\\PARTPICKER\\Resources\\Styles\\Colors.xaml",
               "RelativeDocumentMoniker": "PARTPICKER\\Resources\\Styles\\Colors.xaml",
@@ -164,33 +186,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "zakladka3.xaml.cs",
               "DocumentMoniker": "P:\\STUDIA\\PROJEKTY\\Mobilne\\Aplikacja\\PARTPICKER\\PARTPICKER\\strony\\zakladki\\zakladka3.xaml.cs",
               "RelativeDocumentMoniker": "PARTPICKER\\strony\\zakladki\\zakladka3.xaml.cs",
               "ToolTip": "P:\\STUDIA\\PROJEKTY\\Mobilne\\Aplikacja\\PARTPICKER\\PARTPICKER\\strony\\zakladki\\zakladka3.xaml.cs",
               "RelativeToolTip": "PARTPICKER\\strony\\zakladki\\zakladka3.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-16T20:49:34.78Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "zakladka3.xaml",
               "DocumentMoniker": "P:\\STUDIA\\PROJEKTY\\Mobilne\\Aplikacja\\PARTPICKER\\PARTPICKER\\strony\\zakladki\\zakladka3.xaml",
               "RelativeDocumentMoniker": "PARTPICKER\\strony\\zakladki\\zakladka3.xaml",
               "ToolTip": "P:\\STUDIA\\PROJEKTY\\Mobilne\\Aplikacja\\PARTPICKER\\PARTPICKER\\strony\\zakladki\\zakladka3.xaml",
               "RelativeToolTip": "PARTPICKER\\strony\\zakladki\\zakladka3.xaml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-12-16T20:47:00.009Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "zakladka4.xaml",
               "DocumentMoniker": "P:\\STUDIA\\PROJEKTY\\Mobilne\\Aplikacja\\PARTPICKER\\PARTPICKER\\strony\\zakladki\\zakladka4.xaml",
               "RelativeDocumentMoniker": "PARTPICKER\\strony\\zakladki\\zakladka4.xaml",
@@ -202,7 +224,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "AppShell.xaml",
               "DocumentMoniker": "P:\\STUDIA\\PROJEKTY\\Mobilne\\Aplikacja\\PARTPICKER\\PARTPICKER\\AppShell.xaml",
               "RelativeDocumentMoniker": "PARTPICKER\\AppShell.xaml",
@@ -210,12 +232,11 @@
               "RelativeToolTip": "PARTPICKER\\AppShell.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-02T21:37:31.172Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T21:37:31.172Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "zakladka2.xaml",
               "DocumentMoniker": "P:\\STUDIA\\PROJEKTY\\Mobilne\\Aplikacja\\PARTPICKER\\PARTPICKER\\strony\\zakladki\\zakladka2.xaml",
               "RelativeDocumentMoniker": "PARTPICKER\\strony\\zakladki\\zakladka2.xaml",
@@ -227,7 +248,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "P:\\STUDIA\\PROJEKTY\\Mobilne\\Aplikacja\\PARTPICKER\\PARTPICKER\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "PARTPICKER\\MauiProgram.cs",
+              "ToolTip": "P:\\STUDIA\\PROJEKTY\\Mobilne\\Aplikacja\\PARTPICKER\\PARTPICKER\\MauiProgram.cs",
+              "RelativeToolTip": "PARTPICKER\\MauiProgram.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACEAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T18:18:12.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "NewPage1.xaml",
+              "DocumentMoniker": "P:\\STUDIA\\PROJEKTY\\Mobilne\\Aplikacja\\PARTPICKER\\PARTPICKER\\strony\\zakladki\\NewPage1.xaml",
+              "RelativeDocumentMoniker": "PARTPICKER\\strony\\zakladki\\NewPage1.xaml",
+              "ToolTip": "P:\\STUDIA\\PROJEKTY\\Mobilne\\Aplikacja\\PARTPICKER\\PARTPICKER\\strony\\zakladki\\NewPage1.xaml",
+              "RelativeToolTip": "PARTPICKER\\strony\\zakladki\\NewPage1.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-16T21:13:43.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "P:\\STUDIA\\PROJEKTY\\Mobilne\\Aplikacja\\PARTPICKER\\PARTPICKER\\App.xaml.cs",
               "RelativeDocumentMoniker": "PARTPICKER\\App.xaml.cs",
@@ -235,12 +281,11 @@
               "RelativeToolTip": "PARTPICKER\\App.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T18:17:47.308Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-25T18:17:47.308Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "Rejestracja.xaml",
               "DocumentMoniker": "P:\\STUDIA\\PROJEKTY\\Mobilne\\Aplikacja\\PARTPICKER\\PARTPICKER\\strony\\zakladki\\Rejestracja.xaml",
               "RelativeDocumentMoniker": "PARTPICKER\\strony\\zakladki\\Rejestracja.xaml",
@@ -252,7 +297,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "SampleVM.cs",
               "DocumentMoniker": "P:\\STUDIA\\PROJEKTY\\Mobilne\\Aplikacja\\PARTPICKER\\PARTPICKER\\ViewModels\\SampleVM.cs",
               "RelativeDocumentMoniker": "PARTPICKER\\ViewModels\\SampleVM.cs",
@@ -260,12 +305,11 @@
               "RelativeToolTip": "PARTPICKER\\ViewModels\\SampleVM.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAA1wBUAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T08:12:53.188Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-26T08:12:53.188Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "zakladka1.xaml.cs",
               "DocumentMoniker": "P:\\STUDIA\\PROJEKTY\\Mobilne\\Aplikacja\\PARTPICKER\\PARTPICKER\\strony\\zakladki\\zakladka1.xaml.cs",
               "RelativeDocumentMoniker": "PARTPICKER\\strony\\zakladki\\zakladka1.xaml.cs",
@@ -277,19 +321,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "MauiProgram.cs",
-              "DocumentMoniker": "P:\\STUDIA\\PROJEKTY\\Mobilne\\Aplikacja\\PARTPICKER\\PARTPICKER\\MauiProgram.cs",
-              "RelativeDocumentMoniker": "PARTPICKER\\MauiProgram.cs",
-              "ToolTip": "P:\\STUDIA\\PROJEKTY\\Mobilne\\Aplikacja\\PARTPICKER\\PARTPICKER\\MauiProgram.cs",
-              "RelativeToolTip": "PARTPICKER\\MauiProgram.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB4AAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T18:18:12.299Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "App.xaml",
               "DocumentMoniker": "P:\\STUDIA\\PROJEKTY\\Mobilne\\Aplikacja\\PARTPICKER\\PARTPICKER\\App.xaml",
               "RelativeDocumentMoniker": "PARTPICKER\\App.xaml",
@@ -302,7 +334,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "AboutAssets.txt",
               "DocumentMoniker": "P:\\STUDIA\\PROJEKTY\\Mobilne\\Aplikacja\\PARTPICKER\\PARTPICKER\\Resources\\Raw\\AboutAssets.txt",
               "RelativeDocumentMoniker": "PARTPICKER\\Resources\\Raw\\AboutAssets.txt",
@@ -314,7 +346,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "PARTPICKER.csproj",
               "DocumentMoniker": "P:\\STUDIA\\PROJEKTY\\Mobilne\\Aplikacja\\PARTPICKER\\PARTPICKER\\PARTPICKER.csproj",
               "RelativeDocumentMoniker": "PARTPICKER\\PARTPICKER.csproj",
@@ -326,7 +358,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "FirestoreService.cs",
               "DocumentMoniker": "P:\\STUDIA\\PROJEKTY\\Mobilne\\Aplikacja\\PARTPICKER\\PARTPICKER\\Services\\FirestoreService.cs",
               "RelativeDocumentMoniker": "PARTPICKER\\Services\\FirestoreService.cs",
@@ -338,7 +370,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "Microsoft.UI.Xaml.Markup.Compiler.interop.targets",
               "DocumentMoniker": "C:\\Users\\Grzegorz\\.nuget\\packages\\microsoft.windowsappsdk\\1.5.240627000\\buildTransitive\\Microsoft.UI.Xaml.Markup.Compiler.interop.targets",
               "ToolTip": "C:\\Users\\Grzegorz\\.nuget\\packages\\microsoft.windowsappsdk\\1.5.240627000\\buildTransitive\\Microsoft.UI.Xaml.Markup.Compiler.interop.targets",
@@ -348,7 +380,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "AppShell.xaml",
               "DocumentMoniker": "C:\\Users\\Grzegorz\\Desktop\\FirestoreMaui-master\\AppShell.xaml",
               "ToolTip": "C:\\Users\\Grzegorz\\Desktop\\FirestoreMaui-master\\AppShell.xaml",
@@ -358,7 +390,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "AppShell.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Grzegorz\\Desktop\\FirestoreMaui-master\\AppShell.xaml.cs",
               "ToolTip": "C:\\Users\\Grzegorz\\Desktop\\FirestoreMaui-master\\AppShell.xaml.cs",
@@ -368,7 +400,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "MainActivity.cs",
               "DocumentMoniker": "P:\\STUDIA\\PROJEKTY\\Mobilne\\Aplikacja\\PARTPICKER\\PARTPICKER\\Platforms\\Android\\MainActivity.cs",
               "RelativeDocumentMoniker": "PARTPICKER\\Platforms\\Android\\MainActivity.cs",
@@ -380,7 +412,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "ShopPartList.cs",
               "DocumentMoniker": "P:\\STUDIA\\PROJEKTY\\Mobilne\\Aplikacja\\PARTPICKER\\PARTPICKER\\Models\\ShopPartList.cs",
               "RelativeDocumentMoniker": "PARTPICKER\\Models\\ShopPartList.cs",
@@ -392,7 +424,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "ShopPart.cs",
               "DocumentMoniker": "P:\\STUDIA\\PROJEKTY\\Mobilne\\Aplikacja\\PARTPICKER\\PARTPICKER\\Models\\ShopPart.cs",
               "RelativeDocumentMoniker": "PARTPICKER\\Models\\ShopPart.cs",
@@ -404,7 +436,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "SampleModel.cs",
               "DocumentMoniker": "P:\\STUDIA\\PROJEKTY\\Mobilne\\Aplikacja\\PARTPICKER\\PARTPICKER\\Models\\SampleModel.cs",
               "RelativeDocumentMoniker": "PARTPICKER\\Models\\SampleModel.cs",
@@ -416,7 +448,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "Item.cs",
               "DocumentMoniker": "P:\\STUDIA\\PROJEKTY\\Mobilne\\Aplikacja\\PARTPICKER\\PARTPICKER\\Models\\Item.cs",
               "RelativeDocumentMoniker": "PARTPICKER\\Models\\Item.cs",
