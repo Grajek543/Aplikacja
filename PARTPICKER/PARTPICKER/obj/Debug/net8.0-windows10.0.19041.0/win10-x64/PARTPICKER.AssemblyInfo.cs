@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PARTPICKER")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+e0081c931a356c2585e39606d3d1f77047fd12eb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+4fcd9647476170fdd38a35607252e91e086ca89d")]
 [assembly: System.Reflection.AssemblyProductAttribute("PARTPICKER")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PARTPICKER")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
