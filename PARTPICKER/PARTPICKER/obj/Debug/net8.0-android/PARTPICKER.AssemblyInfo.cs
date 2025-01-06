@@ -14,15 +14,9 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PARTPICKER")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-<<<<<<< HEAD:aplikacja/aplikacja/obj/Debug/net8.0-android/aplikacja.AssemblyInfo.cs
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+3fc26c673aa4da4206801d02f5068272a02581ca")]
-[assembly: System.Reflection.AssemblyProductAttribute("aplikacja")]
-[assembly: System.Reflection.AssemblyTitleAttribute("aplikacja")]
-=======
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+53f64db950f19204aa622729c54245e917664d2a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+e0081c931a356c2585e39606d3d1f77047fd12eb")]
 [assembly: System.Reflection.AssemblyProductAttribute("PARTPICKER")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PARTPICKER")]
->>>>>>> main:PARTPICKER/PARTPICKER/obj/Debug/net8.0-android/PARTPICKER.AssemblyInfo.cs
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 [assembly: System.Runtime.Versioning.TargetPlatformAttribute("Android34.0")]
 [assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Android21.0")]

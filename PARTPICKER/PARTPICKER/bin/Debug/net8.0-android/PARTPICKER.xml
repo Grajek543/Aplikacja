@@ -20,5 +20,21 @@
         <member name="P:PARTPICKER.ViewModels.SampleVM.SaveSampleDataCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:PARTPICKER.ViewModels.SampleVM.SaveSampleData"/>.</summary>
         </member>
+        <member name="T:PARTPICKER.ViewModels.SPart">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="F:PARTPICKER.ViewModels.SPart.getPartDataCommand">
+            <summary>The backing field for <see cref="P:PARTPICKER.ViewModels.SPart.GetPartDataCommand"/>.</summary>
+        </member>
+        <member name="P:PARTPICKER.ViewModels.SPart.GetPartDataCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:PARTPICKER.ViewModels.SPart.GetPartData"/>.</summary>
+        </member>
+        <member name="F:PARTPICKER.ViewModels.SPart.savePartDataCommand">
+            <summary>The backing field for <see cref="P:PARTPICKER.ViewModels.SPart.SavePartDataCommand"/>.</summary>
+        </member>
+        <member name="P:PARTPICKER.ViewModels.SPart.SavePartDataCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:PARTPICKER.ViewModels.SPart.SavePartData"/>.</summary>
+        </member>
     </members>
 </doc>

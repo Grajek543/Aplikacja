@@ -1,81 +1,60 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PARTPICKER.strony.zakladki.zakladka1"
-             Title="zakladka1"
-             xmlns:android="clr-namespace:Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific;assembly=Microsoft.Maui.Controls"
-             xmlns:local="clr-namespace:PARTPICKER.strony.zakladki"
-             android:TabbedPage.ToolbarPlacement="Bottom"
-             SelectedTabColor="LightBlue"
-             BarBackgroundColor="IndianRed">
-    
-    <ContentPage IconImageSource="pc.png">
-        <ContentPage.Background>
-            <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
-                <GradientStop Color="LightGray" Offset="0.0" />
-                <GradientStop Color="Gray" Offset="1.0" />
-            </LinearGradientBrush>
-        </ContentPage.Background>
-        <ScrollView>
-            <Grid RowDefinitions="Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto">
-                <Label Grid.Row="1"></Label>
-                <Label Text="Make your own PC!" HorizontalOptions="Center" Grid.Row="2" FontFamily="Tiny5" FontSize="24" />
-                <Label Grid.Row="3"></Label>
-                <Label Grid.Row="4"></Label>
-                <Entry Text="Name your PC set" Grid.Row="5" Margin="10"></Entry>
+             Title="">
+    <ContentPage.Background>
+        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+            <GradientStop Color="LightGray" Offset="0.0" />
+            <GradientStop Color="Gray" Offset="1.0" />
+        </LinearGradientBrush>
+    </ContentPage.Background>
 
-                <StackLayout Padding="10" Grid.Row="6">
-                    <StackLayout Orientation="Horizontal" VerticalOptions="Start">
-                        <Image Source="your_image.png" WidthRequest="30" HeightRequest="30" VerticalOptions="Start" />
-                        <Label Text="CPU" VerticalOptions="Start" Margin="5,0,0,0" />
-                    </StackLayout>
-                    <StackLayout>
-                        <Button BackgroundColor="RosyBrown" x:Name="CpuSelectionButton" Text="CPU"  HorizontalOptions="Fill" />
+    <ScrollView>
+        <Grid RowDefinitions="Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto">
+            <Label Grid.Row="1"></Label>
+            <Label Text="Make your own PC!" HorizontalOptions="Center" Grid.Row="2" FontFamily="Tiny5" FontSize="24" />
+            <Label Grid.Row="3"></Label>
+            <Label Grid.Row="4"></Label>
+            <Entry Text="Name your PC set" Grid.Row="5" Margin="10"></Entry>
 
-                        <CollectionView x:Name="CpuExpandableList">
-                            <CollectionView.ItemTemplate>
-                                <DataTemplate>
-                                    <Label Text="{Binding Name}" />
-                                </DataTemplate>
-                            </CollectionView.ItemTemplate>
-                        </CollectionView>
-                    </StackLayout>
+            <StackLayout Padding="10" Grid.Row="6">
+                <StackLayout Orientation="Horizontal" VerticalOptions="Start">
+                    <Image Source="your_image.png" WidthRequest="30" HeightRequest="30" VerticalOptions="Start" />
+                    <Label Text="CPU" VerticalOptions="Start" Margin="5,0,0,0" />
                 </StackLayout>
+                <StackLayout>
 
-                <StackLayout Padding="10" Grid.Row="7">
-                    <StackLayout Orientation="Horizontal" VerticalOptions="Start">
-                        <Image Source="your_image.png" WidthRequest="30" HeightRequest="30" VerticalOptions="Start" />
-                        <Label Text="GPU" VerticalOptions="Start" Margin="5,0,0,0" />
-                    </StackLayout>
+                    <Button BackgroundColor="RosyBrown" x:Name="CpuSelectionButton" Text="CPU"  HorizontalOptions="Fill"/>
+
+
+                    <CollectionView x:Name="CpuExpandableList">
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                                <Label Text="{Binding Name}" />
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
                 </StackLayout>
+            </StackLayout>
+
+            <StackLayout Padding="10" Grid.Row="7">
+                <StackLayout Orientation="Horizontal" VerticalOptions="Start">
+                    <Image Source="your_image.png" WidthRequest="30" HeightRequest="30" VerticalOptions="Start" />
+                    <Label Text="GPU" VerticalOptions="Start" Margin="5,0,0,0" />
+                </StackLayout>
+            </StackLayout>
 
 
 
-                <Label Grid.Row="13"></Label>
-                <Label Grid.Row="14"></Label>
-                <Label Grid.Row="15"></Label>
-                <Label Grid.Row="16"></Label>
-                <Label Grid.Row="17"></Label>
-                <Label Grid.Row="18"></Label>
-                <Label Grid.Row="19"></Label>
-                <Label Grid.Row="20"></Label>
-            </Grid>
-        </ScrollView>
-    </ContentPage>
-
-    <local:zakladka2 IconImageSource="sklep.png">
-
-    </local:zakladka2>
-
-    <local:zakladka3 IconImageSource="ustawienia.png">
-
-    </local:zakladka3>
-
-    <local:zakladka4 IconImageSource="konto.png">
-
-    </local:zakladka4>
-    
-    <local:NewPage1 IconImageSource="konto.png">
-
-    </local:NewPage1>
-</TabbedPage>
+            <Label Grid.Row="13"></Label>
+            <Label Grid.Row="14"></Label>
+            <Label Grid.Row="15"></Label>
+            <Label Grid.Row="16"></Label>
+            <Label Grid.Row="17"></Label>
+            <Label Grid.Row="18"></Label>
+            <Label Grid.Row="19"></Label>
+            <Label Grid.Row="20"></Label>
+        </Grid>
+    </ScrollView>
+</ContentPage>

@@ -15,7 +15,7 @@ namespace PARTPICKER.Services
         {
             if (db == null)
             {
-                var stream = await FileSystem.OpenAppPackageFileAsync("apppartpicker-firebase-adminsdk-hcs8b-48fa859909.json");
+                var stream = await FileSystem.OpenAppPackageFileAsync("Admin.json");
                 var reader = new StreamReader(stream);
                 var contents = reader.ReadToEnd();
 

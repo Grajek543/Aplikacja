@@ -1,31 +1,17 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD:aplikacja/aplikacja/obj/aplikacja.csproj.nuget.dgspec.json
-    "D:\\App\\Aplikacja\\aplikacja\\aplikacja\\aplikacja.csproj": {}
+    "D:\\App\\Aplikacja\\PARTPICKER\\PARTPICKER\\PARTPICKER.csproj": {}
   },
   "projects": {
-    "D:\\App\\Aplikacja\\aplikacja\\aplikacja\\aplikacja.csproj": {
+    "D:\\App\\Aplikacja\\PARTPICKER\\PARTPICKER\\PARTPICKER.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\App\\Aplikacja\\aplikacja\\aplikacja\\aplikacja.csproj",
-        "projectName": "aplikacja",
-        "projectPath": "D:\\App\\Aplikacja\\aplikacja\\aplikacja\\aplikacja.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "D:\\App\\Aplikacja\\aplikacja\\aplikacja\\obj\\",
-=======
-    "C:\\Users\\Grzegorz\\Desktop\\clon\\Aplikacja\\PARTPICKER\\PARTPICKER\\PARTPICKER.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\Grzegorz\\Desktop\\clon\\Aplikacja\\PARTPICKER\\PARTPICKER\\PARTPICKER.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\Grzegorz\\Desktop\\clon\\Aplikacja\\PARTPICKER\\PARTPICKER\\PARTPICKER.csproj",
+        "projectUniqueName": "D:\\App\\Aplikacja\\PARTPICKER\\PARTPICKER\\PARTPICKER.csproj",
         "projectName": "PARTPICKER",
-        "projectPath": "C:\\Users\\Grzegorz\\Desktop\\clon\\Aplikacja\\PARTPICKER\\PARTPICKER\\PARTPICKER.csproj",
-        "packagesPath": "C:\\Users\\Grzegorz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Grzegorz\\Desktop\\clon\\Aplikacja\\PARTPICKER\\PARTPICKER\\obj\\",
->>>>>>> main:PARTPICKER/PARTPICKER/obj/PARTPICKER.csproj.nuget.dgspec.json
+        "projectPath": "D:\\App\\Aplikacja\\PARTPICKER\\PARTPICKER\\PARTPICKER.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "D:\\App\\Aplikacja\\PARTPICKER\\PARTPICKER\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
@@ -73,7 +59,7 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         },
         "SdkAnalysisLevel": "9.0.100"
       },
@@ -149,7 +135,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         },
         "net8.0-ios18.0": {
           "targetAlias": "net8.0-ios",
@@ -195,19 +181,11 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.iOS.Ref.net8.0_18.0",
-<<<<<<< HEAD:aplikacja/aplikacja/obj/aplikacja.csproj.nuget.dgspec.json
-              "version": "[18.0.8314, 18.0.8314]"
-            },
-            {
-              "name": "Microsoft.iOS.Runtime.ios-arm64.net8.0_18.0",
-              "version": "[18.0.8314, 18.0.8314]"
-=======
               "version": "[18.0.8316, 18.0.8316]"
             },
             {
               "name": "Microsoft.iOS.Runtime.iossimulator-x64.net8.0_18.0",
               "version": "[18.0.8316, 18.0.8316]"
->>>>>>> main:PARTPICKER/PARTPICKER/obj/PARTPICKER.csproj.nuget.dgspec.json
             }
           ],
           "frameworkReferences": {
@@ -218,7 +196,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         },
         "net8.0-maccatalyst18.0": {
           "targetAlias": "net8.0-maccatalyst",
@@ -265,19 +243,11 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.MacCatalyst.Ref.net8.0_18.0",
-<<<<<<< HEAD:aplikacja/aplikacja/obj/aplikacja.csproj.nuget.dgspec.json
-              "version": "[18.0.8314, 18.0.8314]"
-            },
-            {
-              "name": "Microsoft.MacCatalyst.Runtime.maccatalyst-x64.net8.0_18.0",
-              "version": "[18.0.8314, 18.0.8314]"
-=======
               "version": "[18.0.8316, 18.0.8316]"
             },
             {
               "name": "Microsoft.MacCatalyst.Runtime.maccatalyst-x64.net8.0_18.0",
               "version": "[18.0.8316, 18.0.8316]"
->>>>>>> main:PARTPICKER/PARTPICKER/obj/PARTPICKER.csproj.nuget.dgspec.json
             }
           ],
           "frameworkReferences": {
@@ -288,7 +258,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         },
         "net8.0-windows10.0.19041": {
           "targetAlias": "net8.0-windows10.0.19041.0",
@@ -339,7 +309,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {

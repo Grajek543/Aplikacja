@@ -28,6 +28,4 @@
     ContentTemplate="{DataTemplate local:NewPage1}"/>
         </Tab>
     </TabBar>
-
-
 </Shell>

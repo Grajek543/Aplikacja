@@ -7,30 +7,40 @@ namespace PARTPICKER.strony.zakladki;
 
 public partial class zakladka2 : ContentPage
 {
+    private FirestoreService firestoreService;
+    private SPart vm;
+
     public zakladka2()
     {
-        var firestoreService = new FirestoreService();
-        var vm = new SPart(firestoreService);
         InitializeComponent();
+        InitializeFirebase();
+    }
+
+    private async void InitializeFirebase()
+    {
+        firestoreService = new FirestoreService();
+        vm = new SPart(firestoreService);
         BindingContext = vm;
     }
 
-    public zakladka2(SPart vm)
+    protected override async void OnAppearing()
     {
-        InitializeComponent();
-        BindingContext = vm;
+        base.OnAppearing();
+        if (vm.ShopPartList == null || !vm.ShopPartList.Any())
+        {
+            await vm.GetPartData();
+        }
     }
 
     private void SearchBar_TextChanged(object sender, TextChangedEventArgs e)
     {
-        /*if (sPartService == null || sender == null || !(sender is SearchBar searchBar))
+        if (vm == null || sender == null || !(sender is SearchBar searchBar))
         {
-
             return;
         }
-        var parts = new ObservableCollection<ShopPart>(SPart.SearchParts(((SearchBar)sender).Text));
+        var parts = new ObservableCollection<ShopPart>(vm.SearchParts(((SearchBar)sender).Text));
         if (parts == null) return;
-        shoplist.ItemsSource = parts;*/
+        shoplist.ItemsSource = parts;
     }
 
     private async void toCartPage_Clicked(object sender, EventArgs e)

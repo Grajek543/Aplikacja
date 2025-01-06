@@ -14,7 +14,7 @@ namespace PARTPICKER.ViewModels
     {
         FirestoreService firestoreService;
 
-        public ObservableCollection<ShopPart> ShopPartList { get; set; } = [];
+        public ObservableCollection<ShopPart> ShopPartList { get; set; } = new ObservableCollection<ShopPart>();
 
         public SPart(FirestoreService firestoreService)
         {

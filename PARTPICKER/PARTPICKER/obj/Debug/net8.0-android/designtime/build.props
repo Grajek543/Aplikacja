@@ -13,11 +13,7 @@ androidlinkskip=
 androidsdkbuildtoolsversion=34.0.0
 androidsdkpath=d:\android\android-sdk\
 androidndkpath=
-<<<<<<< HEAD:aplikacja/aplikacja/obj/Debug/net8.0-android/designtime/build.props
 javasdkpath=d:\android\openjdk\jdk-17.0.12\
-=======
-javasdkpath=c:\program files (x86)\android\openjdk\jdk-17.0.12\
->>>>>>> main:PARTPICKER/PARTPICKER/obj/Debug/net8.0-android/designtime/build.props
 androidsequencepointsmode=none
 androidnetsdkversion=34.0.145
 monosymbolarchive=false
@@ -28,15 +24,8 @@ androidgeneratejnimarshalmethods=false
 os=windows_nt
 androidincludedebugsymbols=true
 androidpackagenamingpolicy=lowercasecrc64
-<<<<<<< HEAD:aplikacja/aplikacja/obj/Debug/net8.0-android/designtime/build.props
-_nugetassetsfilehash=69a2fdab9e78240a68c9646ce0f6dc7d0b5d95b6826113b12008478a5784880c
+_nugetassetsfilehash=4562dfab8a5bb51539725b5ef364ffe668579379a3926e3f31614c44c1f6024c
 typemapkind=strings-asm
 androidmanifestplaceholders=
-projectfullpath=d:\app\aplikacja\aplikacja\aplikacja\aplikacja.csproj
-=======
-_nugetassetsfilehash=e59bb0130a80055d34409fe64a8187ec6f72e10df1562b3144ee4d6b10fc5bdd
-typemapkind=strings-asm
-androidmanifestplaceholders=
-projectfullpath=c:\users\grzegorz\desktop\clon\aplikacja\partpicker\partpicker\partpicker.csproj
->>>>>>> main:PARTPICKER/PARTPICKER/obj/Debug/net8.0-android/designtime/build.props
+projectfullpath=d:\app\aplikacja\partpicker\partpicker\partpicker.csproj
 androidusedesignerassembly=true
