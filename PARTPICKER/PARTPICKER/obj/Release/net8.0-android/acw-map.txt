@@ -502,6 +502,33 @@ microsoft.maui.devices.EnergySaverBroadcastReceiver;crc640a8d9a12ddbf2cf2.Energy
 Microsoft.Maui.Graphics.Platform.PlatformGraphicsView, Microsoft.Maui.Graphics;crc643f2b18b2570eaa5a.PlatformGraphicsView
 Microsoft.Maui.Graphics.Platform.PlatformGraphicsView;crc643f2b18b2570eaa5a.PlatformGraphicsView
 microsoft.maui.graphics.platform.PlatformGraphicsView;crc643f2b18b2570eaa5a.PlatformGraphicsView
+Plugin.CurrentActivity.ActivityLifecycleContextListener, Plugin.CurrentActivity;crc64435a5ac349fa9fda.ActivityLifecycleContextListener
+Plugin.CurrentActivity.ActivityLifecycleContextListener;crc64435a5ac349fa9fda.ActivityLifecycleContextListener
+plugin.currentactivity.ActivityLifecycleContextListener;crc64435a5ac349fa9fda.ActivityLifecycleContextListener
+Plugin.Fingerprint.AuthenticationHandler, Plugin.Fingerprint;crc64e6d0b84c6264ccdd.AuthenticationHandler
+Plugin.Fingerprint.AuthenticationHandler;crc64e6d0b84c6264ccdd.AuthenticationHandler
+plugin.fingerprint.AuthenticationHandler;crc64e6d0b84c6264ccdd.AuthenticationHandler
+Plugin.Firebase.Core.Platforms.Android.OnCompleteListener, Plugin.Firebase.Core;crc64d20aaac0e78511d5.OnCompleteListener
+Plugin.Firebase.Core.Platforms.Android.OnCompleteListener;crc64d20aaac0e78511d5.OnCompleteListener
+plugin.firebase.core.platforms.android.OnCompleteListener;crc64d20aaac0e78511d5.OnCompleteListener
+Plugin.Firebase.Core.Platforms.Android.OnFailureListener, Plugin.Firebase.Core;crc64d20aaac0e78511d5.OnFailureListener
+Plugin.Firebase.Core.Platforms.Android.OnFailureListener;crc64d20aaac0e78511d5.OnFailureListener
+plugin.firebase.core.platforms.android.OnFailureListener;crc64d20aaac0e78511d5.OnFailureListener
+Plugin.Firebase.Core.Platforms.Android.OnSuccessListener, Plugin.Firebase.Core;crc64d20aaac0e78511d5.OnSuccessListener
+Plugin.Firebase.Core.Platforms.Android.OnSuccessListener;crc64d20aaac0e78511d5.OnSuccessListener
+plugin.firebase.core.platforms.android.OnSuccessListener;crc64d20aaac0e78511d5.OnSuccessListener
+Plugin.FirebaseAuth.AuthWrapper+AuthStateChangedListenerRegistration+AuthStateListener, Plugin.FirebaseAuth;crc64cda9f2d67f850cb2.AuthWrapper_AuthStateChangedListenerRegistration_AuthStateListener
+Plugin.FirebaseAuth.AuthWrapper.AuthStateChangedListenerRegistration.AuthStateListener;crc64cda9f2d67f850cb2.AuthWrapper_AuthStateChangedListenerRegistration_AuthStateListener
+plugin.firebaseauth.AuthWrapper_AuthStateChangedListenerRegistration_AuthStateListener;crc64cda9f2d67f850cb2.AuthWrapper_AuthStateChangedListenerRegistration_AuthStateListener
+Plugin.FirebaseAuth.AuthWrapper+IdTokenChangedListenerRegistration+IdTokenListener, Plugin.FirebaseAuth;crc64cda9f2d67f850cb2.AuthWrapper_IdTokenChangedListenerRegistration_IdTokenListener
+Plugin.FirebaseAuth.AuthWrapper.IdTokenChangedListenerRegistration.IdTokenListener;crc64cda9f2d67f850cb2.AuthWrapper_IdTokenChangedListenerRegistration_IdTokenListener
+plugin.firebaseauth.AuthWrapper_IdTokenChangedListenerRegistration_IdTokenListener;crc64cda9f2d67f850cb2.AuthWrapper_IdTokenChangedListenerRegistration_IdTokenListener
+Plugin.FirebaseAuth.OnCompleteHandlerListener, Plugin.FirebaseAuth;crc64cda9f2d67f850cb2.OnCompleteHandlerListener
+Plugin.FirebaseAuth.OnCompleteHandlerListener;crc64cda9f2d67f850cb2.OnCompleteHandlerListener
+plugin.firebaseauth.OnCompleteHandlerListener;crc64cda9f2d67f850cb2.OnCompleteHandlerListener
+Plugin.FirebaseAuth.PhoneAuthProviderWrapper+Callbacks, Plugin.FirebaseAuth;crc64cda9f2d67f850cb2.PhoneAuthProviderWrapper_Callbacks
+Plugin.FirebaseAuth.PhoneAuthProviderWrapper.Callbacks;crc64cda9f2d67f850cb2.PhoneAuthProviderWrapper_Callbacks
+plugin.firebaseauth.PhoneAuthProviderWrapper_Callbacks;crc64cda9f2d67f850cb2.PhoneAuthProviderWrapper_Callbacks
 AndroidX.Activity.ContextAware.IOnContextAvailableListener, Xamarin.AndroidX.Activity;androidx.activity.contextaware.OnContextAvailableListener
 AndroidX.Activity.ContextAware.IOnContextAvailableListener;androidx.activity.contextaware.OnContextAvailableListener
 androidx.activity.contextaware.OnContextAvailableListener;androidx.activity.contextaware.OnContextAvailableListener
@@ -781,6 +808,84 @@ androidx.viewpager.widget.ViewPager$PageTransformer;androidx.viewpager.widget.Vi
 AndroidX.ViewPager2.Widget.ViewPager2+IPageTransformer, Xamarin.AndroidX.ViewPager2;androidx.viewpager2.widget.ViewPager2$PageTransformer
 AndroidX.ViewPager2.Widget.ViewPager2.IPageTransformer;androidx.viewpager2.widget.ViewPager2$PageTransformer
 androidx.viewpager2.widget.ViewPager2$PageTransformer;androidx.viewpager2.widget.ViewPager2$PageTransformer
+Firebase.Auth.FirebaseAuth+IAuthStateListener, Xamarin.Firebase.Auth;com.google.firebase.auth.FirebaseAuth$AuthStateListener
+Firebase.Auth.FirebaseAuth.IAuthStateListener;com.google.firebase.auth.FirebaseAuth$AuthStateListener
+com.google.firebase.auth.FirebaseAuth$AuthStateListener;com.google.firebase.auth.FirebaseAuth$AuthStateListener
+Firebase.Auth.FirebaseAuth+IAuthStateListenerImplementor, Xamarin.Firebase.Auth;mono.com.google.firebase.auth.FirebaseAuth_AuthStateListenerImplementor
+Firebase.Auth.FirebaseAuth.IAuthStateListenerImplementor;mono.com.google.firebase.auth.FirebaseAuth_AuthStateListenerImplementor
+mono.com.google.firebase.auth.FirebaseAuth_AuthStateListenerImplementor;mono.com.google.firebase.auth.FirebaseAuth_AuthStateListenerImplementor
+Firebase.Auth.FirebaseAuth+IIdTokenListener, Xamarin.Firebase.Auth;com.google.firebase.auth.FirebaseAuth$IdTokenListener
+Firebase.Auth.FirebaseAuth.IIdTokenListener;com.google.firebase.auth.FirebaseAuth$IdTokenListener
+com.google.firebase.auth.FirebaseAuth$IdTokenListener;com.google.firebase.auth.FirebaseAuth$IdTokenListener
+Firebase.Auth.FirebaseAuth+IIdTokenListenerImplementor, Xamarin.Firebase.Auth;mono.com.google.firebase.auth.FirebaseAuth_IdTokenListenerImplementor
+Firebase.Auth.FirebaseAuth.IIdTokenListenerImplementor;mono.com.google.firebase.auth.FirebaseAuth_IdTokenListenerImplementor
+mono.com.google.firebase.auth.FirebaseAuth_IdTokenListenerImplementor;mono.com.google.firebase.auth.FirebaseAuth_IdTokenListenerImplementor
+Firebase.Auth.IActionCodeResultActionDataKey, Xamarin.Firebase.Auth;com.google.firebase.auth.ActionCodeResult$ActionDataKey
+Firebase.Auth.IActionCodeResultActionDataKey;com.google.firebase.auth.ActionCodeResult$ActionDataKey
+com.google.firebase.auth.ActionCodeResult$ActionDataKey;com.google.firebase.auth.ActionCodeResult$ActionDataKey
+Firebase.Auth.IActionCodeResultOperation, Xamarin.Firebase.Auth;com.google.firebase.auth.ActionCodeResult$Operation
+Firebase.Auth.IActionCodeResultOperation;com.google.firebase.auth.ActionCodeResult$Operation
+com.google.firebase.auth.ActionCodeResult$Operation;com.google.firebase.auth.ActionCodeResult$Operation
+Firebase.Auth.IActionCodeResult, Xamarin.Firebase.Auth;com.google.firebase.auth.ActionCodeResult
+Firebase.Auth.IActionCodeResult;com.google.firebase.auth.ActionCodeResult
+com.google.firebase.auth.ActionCodeResult;com.google.firebase.auth.ActionCodeResult
+Firebase.Auth.IAdditionalUserInfo, Xamarin.Firebase.Auth;com.google.firebase.auth.AdditionalUserInfo
+Firebase.Auth.IAdditionalUserInfo;com.google.firebase.auth.AdditionalUserInfo
+com.google.firebase.auth.AdditionalUserInfo;com.google.firebase.auth.AdditionalUserInfo
+Firebase.Auth.IAuthResult, Xamarin.Firebase.Auth;com.google.firebase.auth.AuthResult
+Firebase.Auth.IAuthResult;com.google.firebase.auth.AuthResult
+com.google.firebase.auth.AuthResult;com.google.firebase.auth.AuthResult
+Firebase.Auth.IFirebaseUserMetadata, Xamarin.Firebase.Auth;com.google.firebase.auth.FirebaseUserMetadata
+Firebase.Auth.IFirebaseUserMetadata;com.google.firebase.auth.FirebaseUserMetadata
+com.google.firebase.auth.FirebaseUserMetadata;com.google.firebase.auth.FirebaseUserMetadata
+Firebase.Auth.ISignInMethodQueryResult, Xamarin.Firebase.Auth;com.google.firebase.auth.SignInMethodQueryResult
+Firebase.Auth.ISignInMethodQueryResult;com.google.firebase.auth.SignInMethodQueryResult
+com.google.firebase.auth.SignInMethodQueryResult;com.google.firebase.auth.SignInMethodQueryResult
+Firebase.Auth.IUserInfo, Xamarin.Firebase.Auth;com.google.firebase.auth.UserInfo
+Firebase.Auth.IUserInfo;com.google.firebase.auth.UserInfo
+com.google.firebase.auth.UserInfo;com.google.firebase.auth.UserInfo
+Firebase.Internal.IInternalTokenProvider, Xamarin.Firebase.Auth.Interop;com.google.firebase.internal.InternalTokenProvider
+Firebase.Internal.IInternalTokenProvider;com.google.firebase.internal.InternalTokenProvider
+com.google.firebase.internal.InternalTokenProvider;com.google.firebase.internal.InternalTokenProvider
+Firebase.Auth.Internal.IIdTokenListener, Xamarin.Firebase.Auth.Interop;com.google.firebase.auth.internal.IdTokenListener
+Firebase.Auth.Internal.IIdTokenListener;com.google.firebase.auth.internal.IdTokenListener
+com.google.firebase.auth.internal.IdTokenListener;com.google.firebase.auth.internal.IdTokenListener
+Firebase.Auth.Internal.IIdTokenListenerImplementor, Xamarin.Firebase.Auth.Interop;mono.com.google.firebase.auth.internal.IdTokenListenerImplementor
+Firebase.Auth.Internal.IIdTokenListenerImplementor;mono.com.google.firebase.auth.internal.IdTokenListenerImplementor
+mono.com.google.firebase.auth.internal.IdTokenListenerImplementor;mono.com.google.firebase.auth.internal.IdTokenListenerImplementor
+Firebase.Auth.Internal.IInternalAuthProvider, Xamarin.Firebase.Auth.Interop;com.google.firebase.auth.internal.InternalAuthProvider
+Firebase.Auth.Internal.IInternalAuthProvider;com.google.firebase.auth.internal.InternalAuthProvider
+com.google.firebase.auth.internal.InternalAuthProvider;com.google.firebase.auth.internal.InternalAuthProvider
+Firebase.FirebaseApp+IBackgroundStateChangeListener, Xamarin.Firebase.Common;com.google.firebase.FirebaseApp$BackgroundStateChangeListener
+Firebase.FirebaseApp.IBackgroundStateChangeListener;com.google.firebase.FirebaseApp$BackgroundStateChangeListener
+com.google.firebase.FirebaseApp$BackgroundStateChangeListener;com.google.firebase.FirebaseApp$BackgroundStateChangeListener
+Firebase.FirebaseApp+IBackgroundStateChangeListenerImplementor, Xamarin.Firebase.Common;mono.com.google.firebase.FirebaseApp_BackgroundStateChangeListenerImplementor
+Firebase.FirebaseApp.IBackgroundStateChangeListenerImplementor;mono.com.google.firebase.FirebaseApp_BackgroundStateChangeListenerImplementor
+mono.com.google.firebase.FirebaseApp_BackgroundStateChangeListenerImplementor;mono.com.google.firebase.FirebaseApp_BackgroundStateChangeListenerImplementor
+Firebase.IFirebaseAppLifecycleListener, Xamarin.Firebase.Common;com.google.firebase.FirebaseAppLifecycleListener
+Firebase.IFirebaseAppLifecycleListener;com.google.firebase.FirebaseAppLifecycleListener
+com.google.firebase.FirebaseAppLifecycleListener;com.google.firebase.FirebaseAppLifecycleListener
+Firebase.IFirebaseAppLifecycleListenerImplementor, Xamarin.Firebase.Common;mono.com.google.firebase.FirebaseAppLifecycleListenerImplementor
+Firebase.IFirebaseAppLifecycleListenerImplementor;mono.com.google.firebase.FirebaseAppLifecycleListenerImplementor
+mono.com.google.firebase.FirebaseAppLifecycleListenerImplementor;mono.com.google.firebase.FirebaseAppLifecycleListenerImplementor
+Firebase.Inject.IDeferredDeferredHandler, Xamarin.Firebase.Components;com.google.firebase.inject.Deferred$DeferredHandler
+Firebase.Inject.IDeferredDeferredHandler;com.google.firebase.inject.Deferred$DeferredHandler
+com.google.firebase.inject.Deferred$DeferredHandler;com.google.firebase.inject.Deferred$DeferredHandler
+Firebase.Inject.IDeferred, Xamarin.Firebase.Components;com.google.firebase.inject.Deferred
+Firebase.Inject.IDeferred;com.google.firebase.inject.Deferred
+com.google.firebase.inject.Deferred;com.google.firebase.inject.Deferred
+Firebase.Inject.IProvider, Xamarin.Firebase.Components;com.google.firebase.inject.Provider
+Firebase.Inject.IProvider;com.google.firebase.inject.Provider
+com.google.firebase.inject.Provider;com.google.firebase.inject.Provider
+Firebase.Components.IComponentContainer, Xamarin.Firebase.Components;com.google.firebase.components.ComponentContainer
+Firebase.Components.IComponentContainer;com.google.firebase.components.ComponentContainer
+com.google.firebase.components.ComponentContainer;com.google.firebase.components.ComponentContainer
+Firebase.Components.IComponentFactory, Xamarin.Firebase.Components;com.google.firebase.components.ComponentFactory
+Firebase.Components.IComponentFactory;com.google.firebase.components.ComponentFactory
+com.google.firebase.components.ComponentFactory;com.google.firebase.components.ComponentFactory
+Firebase.Components.IComponentRegistrar, Xamarin.Firebase.Components;com.google.firebase.components.ComponentRegistrar
+Firebase.Components.IComponentRegistrar;com.google.firebase.components.ComponentRegistrar
+com.google.firebase.components.ComponentRegistrar;com.google.firebase.components.ComponentRegistrar
 Google.Android.Material.Shape.ICornerSize, Xamarin.Google.Android.Material;com.google.android.material.shape.CornerSize
 Google.Android.Material.Shape.ICornerSize;com.google.android.material.shape.CornerSize
 com.google.android.material.shape.CornerSize;com.google.android.material.shape.CornerSize
@@ -859,6 +964,69 @@ com.google.android.material.appbar.AppBarLayout$OnOffsetChangedListener;com.goog
 Google.Android.Material.AppBar.AppBarLayout+IOnOffsetChangedListenerImplementor, Xamarin.Google.Android.Material;mono.com.google.android.material.appbar.AppBarLayout_OnOffsetChangedListenerImplementor
 Google.Android.Material.AppBar.AppBarLayout.IOnOffsetChangedListenerImplementor;mono.com.google.android.material.appbar.AppBarLayout_OnOffsetChangedListenerImplementor
 mono.com.google.android.material.appbar.AppBarLayout_OnOffsetChangedListenerImplementor;mono.com.google.android.material.appbar.AppBarLayout_OnOffsetChangedListenerImplementor
+Xamarin.Google.Crypto.Tink.Shaded.Protobuf.Internal+IBooleanList, Xamarin.Google.Crypto.Tink.Android;com.google.crypto.tink.shaded.protobuf.Internal$BooleanList
+Xamarin.Google.Crypto.Tink.Shaded.Protobuf.Internal.IBooleanList;com.google.crypto.tink.shaded.protobuf.Internal$BooleanList
+com.google.crypto.tink.shaded.protobuf.Internal$BooleanList;com.google.crypto.tink.shaded.protobuf.Internal$BooleanList
+Xamarin.Google.Crypto.Tink.Shaded.Protobuf.Internal+IDoubleList, Xamarin.Google.Crypto.Tink.Android;com.google.crypto.tink.shaded.protobuf.Internal$DoubleList
+Xamarin.Google.Crypto.Tink.Shaded.Protobuf.Internal.IDoubleList;com.google.crypto.tink.shaded.protobuf.Internal$DoubleList
+com.google.crypto.tink.shaded.protobuf.Internal$DoubleList;com.google.crypto.tink.shaded.protobuf.Internal$DoubleList
+Xamarin.Google.Crypto.Tink.Shaded.Protobuf.Internal+IEnumLite, Xamarin.Google.Crypto.Tink.Android;com.google.crypto.tink.shaded.protobuf.Internal$EnumLite
+Xamarin.Google.Crypto.Tink.Shaded.Protobuf.Internal.IEnumLite;com.google.crypto.tink.shaded.protobuf.Internal$EnumLite
+com.google.crypto.tink.shaded.protobuf.Internal$EnumLite;com.google.crypto.tink.shaded.protobuf.Internal$EnumLite
+Xamarin.Google.Crypto.Tink.Shaded.Protobuf.Internal+IEnumLiteMap, Xamarin.Google.Crypto.Tink.Android;com.google.crypto.tink.shaded.protobuf.Internal$EnumLiteMap
+Xamarin.Google.Crypto.Tink.Shaded.Protobuf.Internal.IEnumLiteMap;com.google.crypto.tink.shaded.protobuf.Internal$EnumLiteMap
+com.google.crypto.tink.shaded.protobuf.Internal$EnumLiteMap;com.google.crypto.tink.shaded.protobuf.Internal$EnumLiteMap
+Xamarin.Google.Crypto.Tink.Shaded.Protobuf.Internal+IFloatList, Xamarin.Google.Crypto.Tink.Android;com.google.crypto.tink.shaded.protobuf.Internal$FloatList
+Xamarin.Google.Crypto.Tink.Shaded.Protobuf.Internal.IFloatList;com.google.crypto.tink.shaded.protobuf.Internal$FloatList
+com.google.crypto.tink.shaded.protobuf.Internal$FloatList;com.google.crypto.tink.shaded.protobuf.Internal$FloatList
+Xamarin.Google.Crypto.Tink.Shaded.Protobuf.Internal+IIntList, Xamarin.Google.Crypto.Tink.Android;com.google.crypto.tink.shaded.protobuf.Internal$IntList
+Xamarin.Google.Crypto.Tink.Shaded.Protobuf.Internal.IIntList;com.google.crypto.tink.shaded.protobuf.Internal$IntList
+com.google.crypto.tink.shaded.protobuf.Internal$IntList;com.google.crypto.tink.shaded.protobuf.Internal$IntList
+Xamarin.Google.Crypto.Tink.Shaded.Protobuf.Internal+ILongList, Xamarin.Google.Crypto.Tink.Android;com.google.crypto.tink.shaded.protobuf.Internal$LongList
+Xamarin.Google.Crypto.Tink.Shaded.Protobuf.Internal.ILongList;com.google.crypto.tink.shaded.protobuf.Internal$LongList
+com.google.crypto.tink.shaded.protobuf.Internal$LongList;com.google.crypto.tink.shaded.protobuf.Internal$LongList
+Xamarin.Google.Crypto.Tink.Shaded.Protobuf.Internal+IProtobufList, Xamarin.Google.Crypto.Tink.Android;com.google.crypto.tink.shaded.protobuf.Internal$ProtobufList
+Xamarin.Google.Crypto.Tink.Shaded.Protobuf.Internal.IProtobufList;com.google.crypto.tink.shaded.protobuf.Internal$ProtobufList
+com.google.crypto.tink.shaded.protobuf.Internal$ProtobufList;com.google.crypto.tink.shaded.protobuf.Internal$ProtobufList
+Xamarin.Google.Crypto.Tink.Shaded.Protobuf.IMessageLiteBuilder, Xamarin.Google.Crypto.Tink.Android;com.google.crypto.tink.shaded.protobuf.MessageLite$Builder
+Xamarin.Google.Crypto.Tink.Shaded.Protobuf.IMessageLiteBuilder;com.google.crypto.tink.shaded.protobuf.MessageLite$Builder
+com.google.crypto.tink.shaded.protobuf.MessageLite$Builder;com.google.crypto.tink.shaded.protobuf.MessageLite$Builder
+Xamarin.Google.Crypto.Tink.Shaded.Protobuf.IMessageLite, Xamarin.Google.Crypto.Tink.Android;com.google.crypto.tink.shaded.protobuf.MessageLite
+Xamarin.Google.Crypto.Tink.Shaded.Protobuf.IMessageLite;com.google.crypto.tink.shaded.protobuf.MessageLite
+com.google.crypto.tink.shaded.protobuf.MessageLite;com.google.crypto.tink.shaded.protobuf.MessageLite
+Xamarin.Google.Crypto.Tink.Shaded.Protobuf.IMessageLiteOrBuilder, Xamarin.Google.Crypto.Tink.Android;com.google.crypto.tink.shaded.protobuf.MessageLiteOrBuilder
+Xamarin.Google.Crypto.Tink.Shaded.Protobuf.IMessageLiteOrBuilder;com.google.crypto.tink.shaded.protobuf.MessageLiteOrBuilder
+com.google.crypto.tink.shaded.protobuf.MessageLiteOrBuilder;com.google.crypto.tink.shaded.protobuf.MessageLiteOrBuilder
+Xamarin.Google.Crypto.Tink.Shaded.Protobuf.IParser, Xamarin.Google.Crypto.Tink.Android;com.google.crypto.tink.shaded.protobuf.Parser
+Xamarin.Google.Crypto.Tink.Shaded.Protobuf.IParser;com.google.crypto.tink.shaded.protobuf.Parser
+com.google.crypto.tink.shaded.protobuf.Parser;com.google.crypto.tink.shaded.protobuf.Parser
+Android.Gms.Common.Internal.SafeParcel.ISafeParcelable, Xamarin.GooglePlayServices.Basement;com.google.android.gms.common.internal.safeparcel.SafeParcelable
+Android.Gms.Common.Internal.SafeParcel.ISafeParcelable;com.google.android.gms.common.internal.safeparcel.SafeParcelable
+com.google.android.gms.common.internal.safeparcel.SafeParcelable;com.google.android.gms.common.internal.safeparcel.SafeParcelable
+Android.Gms.Tasks.IContinuation, Xamarin.GooglePlayServices.Tasks;com.google.android.gms.tasks.Continuation
+Android.Gms.Tasks.IContinuation;com.google.android.gms.tasks.Continuation
+com.google.android.gms.tasks.Continuation;com.google.android.gms.tasks.Continuation
+Android.Gms.Tasks.IOnCanceledListener, Xamarin.GooglePlayServices.Tasks;com.google.android.gms.tasks.OnCanceledListener
+Android.Gms.Tasks.IOnCanceledListener;com.google.android.gms.tasks.OnCanceledListener
+com.google.android.gms.tasks.OnCanceledListener;com.google.android.gms.tasks.OnCanceledListener
+Android.Gms.Tasks.IOnCompleteListener, Xamarin.GooglePlayServices.Tasks;com.google.android.gms.tasks.OnCompleteListener
+Android.Gms.Tasks.IOnCompleteListener;com.google.android.gms.tasks.OnCompleteListener
+com.google.android.gms.tasks.OnCompleteListener;com.google.android.gms.tasks.OnCompleteListener
+Android.Gms.Tasks.IOnFailureListener, Xamarin.GooglePlayServices.Tasks;com.google.android.gms.tasks.OnFailureListener
+Android.Gms.Tasks.IOnFailureListener;com.google.android.gms.tasks.OnFailureListener
+com.google.android.gms.tasks.OnFailureListener;com.google.android.gms.tasks.OnFailureListener
+Android.Gms.Tasks.IOnSuccessListener, Xamarin.GooglePlayServices.Tasks;com.google.android.gms.tasks.OnSuccessListener
+Android.Gms.Tasks.IOnSuccessListener;com.google.android.gms.tasks.OnSuccessListener
+com.google.android.gms.tasks.OnSuccessListener;com.google.android.gms.tasks.OnSuccessListener
+Android.Gms.Tasks.IOnTokenCanceledListener, Xamarin.GooglePlayServices.Tasks;com.google.android.gms.tasks.OnTokenCanceledListener
+Android.Gms.Tasks.IOnTokenCanceledListener;com.google.android.gms.tasks.OnTokenCanceledListener
+com.google.android.gms.tasks.OnTokenCanceledListener;com.google.android.gms.tasks.OnTokenCanceledListener
+Android.Gms.Tasks.ISuccessContinuation, Xamarin.GooglePlayServices.Tasks;com.google.android.gms.tasks.SuccessContinuation
+Android.Gms.Tasks.ISuccessContinuation;com.google.android.gms.tasks.SuccessContinuation
+com.google.android.gms.tasks.SuccessContinuation;com.google.android.gms.tasks.SuccessContinuation
+Android.Gms.Extensions.AwaitableTaskCompleteListener`1, Xamarin.GooglePlayServices.Tasks;crc6495d4f5d63cc5c882.AwaitableTaskCompleteListener_1
+Android.Gms.Extensions.AwaitableTaskCompleteListener`1;crc6495d4f5d63cc5c882.AwaitableTaskCompleteListener_1
+android.gms.extensions.AwaitableTaskCompleteListener_1;crc6495d4f5d63cc5c882.AwaitableTaskCompleteListener_1
 Kotlin.IFunction, Xamarin.Kotlin.StdLib;kotlin.Function
 Kotlin.IFunction;kotlin.Function
 kotlin.Function;kotlin.Function
@@ -895,9 +1063,12 @@ kotlinx.coroutines.flow.SharedFlow;kotlinx.coroutines.flow.SharedFlow
 Xamarin.KotlinX.Coroutines.Flow.IStateFlow, Xamarin.KotlinX.Coroutines.Core.Jvm;kotlinx.coroutines.flow.StateFlow
 Xamarin.KotlinX.Coroutines.Flow.IStateFlow;kotlinx.coroutines.flow.StateFlow
 kotlinx.coroutines.flow.StateFlow;kotlinx.coroutines.flow.StateFlow
-PARTPICKER.MainActivity, PARTPICKER;crc648a2e85d3e02f5ced.MainActivity
-PARTPICKER.MainActivity;crc648a2e85d3e02f5ced.MainActivity
-partpicker.MainActivity;crc648a2e85d3e02f5ced.MainActivity
 PARTPICKER.MainApplication, PARTPICKER;crc648a2e85d3e02f5ced.MainApplication
 PARTPICKER.MainApplication;crc648a2e85d3e02f5ced.MainApplication
 partpicker.MainApplication;crc648a2e85d3e02f5ced.MainApplication
+PARTPICKER.Platforms.Android.LightSensorService, PARTPICKER;crc6479fb81069fb4f4de.LightSensorService
+PARTPICKER.Platforms.Android.LightSensorService;crc6479fb81069fb4f4de.LightSensorService
+partpicker.platforms.android.LightSensorService;crc6479fb81069fb4f4de.LightSensorService
+PARTPICKER.Platforms.Android.MainActivity, PARTPICKER;crc6479fb81069fb4f4de.MainActivity
+PARTPICKER.Platforms.Android.MainActivity;crc6479fb81069fb4f4de.MainActivity
+partpicker.platforms.android.MainActivity;crc6479fb81069fb4f4de.MainActivity

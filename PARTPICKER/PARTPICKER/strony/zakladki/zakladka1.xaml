@@ -5,23 +5,23 @@
              Title="">
     <ContentPage.Background>
         <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
-            <GradientStop Color="LightGray" Offset="0.0" />
-            <GradientStop Color="Gray" Offset="1.0" />
+            <GradientStop Color="{DynamicResource PrimaryColor}" Offset="0.0" />
+            <GradientStop Color="{DynamicResource SecondaryColor}" Offset="1.0" />
         </LinearGradientBrush>
     </ContentPage.Background>
 
     <ScrollView>
         <Grid RowDefinitions="Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto">
             <Label Grid.Row="1"></Label>
-            <Label Text="Make your own PC!" HorizontalOptions="Center" Grid.Row="2" FontFamily="Tiny5" FontSize="24" />
+            <Label Text="Make your own PC!" HorizontalOptions="Center" Grid.Row="2" FontFamily="Tiny5" FontSize="24" TextColor="{DynamicResource TextColor}" />
             <Label Grid.Row="3"></Label>
             <Label Grid.Row="4"></Label>
-            <Entry Text="Name your PC set" Grid.Row="5" Margin="10"></Entry>
+            <Entry Text="Name your PC set" Grid.Row="5" Margin="10" TextColor="{DynamicResource TextColor}"></Entry>
 
             <StackLayout Padding="10" Grid.Row="6">
                 <StackLayout Orientation="Horizontal" VerticalOptions="Start">
                     <Image Source="your_image.png" WidthRequest="30" HeightRequest="30" VerticalOptions="Start" />
-                    <Label Text="CPU" VerticalOptions="Start" Margin="5,0,0,0" />
+                    <Label Text="CPU" VerticalOptions="Start" Margin="5,0,0,0"  TextColor="{DynamicResource TextColor}"/>
                 </StackLayout>
                 <StackLayout>
                     
@@ -41,7 +41,7 @@
             <StackLayout Padding="10" Grid.Row="7">
                 <StackLayout Orientation="Horizontal" VerticalOptions="Start">
                     <Image Source="your_image.png" WidthRequest="30" HeightRequest="30" VerticalOptions="Start" />
-                    <Label Text="GPU" VerticalOptions="Start" Margin="5,0,0,0" />
+                    <Label Text="GPU" VerticalOptions="Start" Margin="5,0,0,0"  TextColor="{DynamicResource TextColor}"/>
                 </StackLayout>
             </StackLayout>
 

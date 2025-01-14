@@ -28,6 +28,16 @@
     <Color x:Key="Gray900">#212121</Color>
     <Color x:Key="Gray950">#141414</Color>
 
+    <!-- Jasny motyw -->
+    <Color x:Key="PrimaryColorLight">#E1E1E1</Color>
+    <Color x:Key="SecondaryColorLight">#ACACAC</Color>
+    <Color x:Key="TextColorLight">Black</Color>
+
+    <!-- Ciemny motyw -->
+    <Color x:Key="PrimaryColorDark">#404040</Color>
+    <Color x:Key="SecondaryColorDark">#6E6E6E</Color>
+    <Color x:Key="TextColorDark">White</Color>
+
     <SolidColorBrush x:Key="PrimaryBrush" Color="{StaticResource Primary}"/>
     <SolidColorBrush x:Key="SecondaryBrush" Color="{StaticResource Secondary}"/>
     <SolidColorBrush x:Key="TertiaryBrush" Color="{StaticResource Tertiary}"/>

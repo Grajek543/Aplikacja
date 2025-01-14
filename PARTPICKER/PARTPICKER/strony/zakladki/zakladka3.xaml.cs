@@ -1,16 +1,26 @@
+using PARTPICKER.Services;
+
 namespace PARTPICKER.strony.zakladki;
 
 public partial class zakladka3 : ContentPage
 {
+    private readonly IThemeManager _themeManager;
     public zakladka3()
     {
         InitializeComponent();
+
+        // Pobieramy ThemeManager (on ma ju¿ dostêp do czujnika)
+        _themeManager = MauiProgram.AppInstance.Services.GetService<IThemeManager>()!;
         //lista jêzyków
         List<string> languages = new List<string> { "English", "Polski" };
         LanguageListView.ItemsSource = languages;
         // Lista motywów
         List<string> themes = new List<string> { "Auto", "Light", "Dark" };
         ThemeListView.ItemsSource = themes;
+
+        // Upewnijmy siê, ¿e zaznaczymy na liœcie to, co jest obecnie w ThemeManager
+        string currentTheme = _themeManager.GetUserSelectedTheme();
+        ThemeListView.SelectedItem = currentTheme;
     }
 
     private void OnSelectLanguageButtonClicked(object sender, EventArgs e)
@@ -41,25 +51,14 @@ public partial class zakladka3 : ContentPage
 
     private void OnThemeSelected(object sender, SelectionChangedEventArgs e)
     {
-        string selectedTheme = e.CurrentSelection[0] as string;
+        string selectedTheme = e.CurrentSelection.FirstOrDefault() as string;
+        if (string.IsNullOrWhiteSpace(selectedTheme))
+            return;
 
-        // Zmienia motyw w zale¿noœci od wyboru u¿ytkownika
-        switch (selectedTheme)
-        {
-            case "Auto":
-                Application.Current.UserAppTheme = AppTheme.Unspecified;
-                break;
-            case "Light":
-                Application.Current.UserAppTheme = AppTheme.Light;
-                break;
-            case "Dark":
-                Application.Current.UserAppTheme = AppTheme.Dark;
-                break;
-        }
+        // Ustawiamy w ThemeManager
+        _themeManager.SetUserSelectedTheme(selectedTheme);
 
-        // Wyœwietla informacjê o wybranym motywie i ukrywa listê po dokonaniu wyboru
         DisplayAlert("Theme Selected", $"Selected theme: {selectedTheme}", "OK");
         ThemeListView.IsVisible = false;
-
     }
 }

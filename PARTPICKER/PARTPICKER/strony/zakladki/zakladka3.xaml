@@ -5,13 +5,13 @@
              Title="">
     <ContentPage.Background>
         <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
-            <GradientStop Color="LightGray" Offset="0.0" />
-            <GradientStop Color="Gray" Offset="1.0" />
+            <GradientStop Color="{DynamicResource PrimaryColor}" Offset="0.0" />
+            <GradientStop Color="{DynamicResource SecondaryColor}" Offset="1.0" />
         </LinearGradientBrush>
     </ContentPage.Background>
-    <ScrollView>
+    <ScrollView >
         <VerticalStackLayout Padding="10" >
-            <Label Text="Settings" HorizontalOptions="Center" FontFamily="Tiny5" FontSize="24" Padding="20" />
+            <Label Text="Settings" HorizontalOptions="Center" FontFamily="Tiny5" FontSize="24" Padding="20"  TextColor="{DynamicResource TextColor}"/>
 
 
             <Button BackgroundColor="RosyBrown" Text="Select Language" Clicked="OnSelectLanguageButtonClicked" Margin="10"/>
@@ -19,7 +19,7 @@
             <CollectionView x:Name="LanguageListView" IsVisible="False" SelectionMode="Single" SelectionChanged="OnLanguageSelected">
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
-                        <Label Text="{Binding}" Padding="10" />
+                        <Label Text="{Binding}" Padding="10" TextColor="{DynamicResource TextColor}"/>
                     </DataTemplate>
                 </CollectionView.ItemTemplate>
             </CollectionView>
@@ -30,7 +30,7 @@
             <CollectionView x:Name="ThemeListView" IsVisible="False" SelectionMode="Single" SelectionChanged="OnThemeSelected">
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
-                        <Label Text="{Binding}" Padding="10" />
+                        <Label Text="{Binding}" Padding="10" TextColor="{DynamicResource TextColor}"/>
                     </DataTemplate>
                 </CollectionView.ItemTemplate>
             </CollectionView>
