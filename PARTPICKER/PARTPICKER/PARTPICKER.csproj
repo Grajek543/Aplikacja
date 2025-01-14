@@ -97,6 +97,9 @@
 	  <MauiXaml Update="strony\zakladki\zakladka4.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="strony\zakladki\zakladka5.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	</ItemGroup>
 
 

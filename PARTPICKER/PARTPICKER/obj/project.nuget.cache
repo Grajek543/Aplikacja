@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0P7OJi6JW2w=",
+  "dgSpecHash": "YFsYx+ySNCc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Grzegorz\\Desktop\\go\\temp\\PARTPICKER\\PARTPICKER\\PARTPICKER.csproj",
+  "projectFilePath": "C:\\Users\\Grzegorz\\Desktop\\gogog\\Aplikacja\\PARTPICKER\\PARTPICKER\\PARTPICKER.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Grzegorz\\.nuget\\packages\\adame.firebase.ios.core\\10.24.0.1\\adame.firebase.ios.core.10.24.0.1.nupkg.sha512",
     "C:\\Users\\Grzegorz\\.nuget\\packages\\communitytoolkit.mvvm\\8.3.2\\communitytoolkit.mvvm.8.3.2.nupkg.sha512",
@@ -159,14 +159,9 @@
     "C:\\Users\\Grzegorz\\.nuget\\packages\\microsoft.android.runtime.34.android-x86\\34.0.145\\microsoft.android.runtime.34.android-x86.34.0.145.nupkg.sha512",
     "C:\\Users\\Grzegorz\\.nuget\\packages\\microsoft.ios.ref.net8.0_18.0\\18.0.8319\\microsoft.ios.ref.net8.0_18.0.18.0.8319.nupkg.sha512",
     "C:\\Users\\Grzegorz\\.nuget\\packages\\microsoft.ios.runtime.iossimulator-x64.net8.0_18.0\\18.0.8319\\microsoft.ios.runtime.iossimulator-x64.net8.0_18.0.18.0.8319.nupkg.sha512",
-    "C:\\Users\\Grzegorz\\.nuget\\packages\\microsoft.maccatalyst.runtime.maccatalyst-arm64.net8.0_18.0\\18.0.8319\\microsoft.maccatalyst.runtime.maccatalyst-arm64.net8.0_18.0.18.0.8319.nupkg.sha512",
     "C:\\Users\\Grzegorz\\.nuget\\packages\\microsoft.maccatalyst.runtime.maccatalyst-x64.net8.0_18.0\\18.0.8319\\microsoft.maccatalyst.runtime.maccatalyst-x64.net8.0_18.0.18.0.8319.nupkg.sha512",
     "C:\\Users\\Grzegorz\\.nuget\\packages\\microsoft.maccatalyst.ref.net8.0_18.0\\18.0.8319\\microsoft.maccatalyst.ref.net8.0_18.0.18.0.8319.nupkg.sha512",
-    "C:\\Users\\Grzegorz\\.nuget\\packages\\microsoft.netcore.app.crossgen2.win-x64\\8.0.11\\microsoft.netcore.app.crossgen2.win-x64.8.0.11.nupkg.sha512",
-    "C:\\Users\\Grzegorz\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.54\\microsoft.windows.sdk.net.ref.10.0.19041.54.nupkg.sha512",
-    "C:\\Users\\Grzegorz\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\8.0.11\\microsoft.aspnetcore.app.runtime.win-x64.8.0.11.nupkg.sha512",
-    "C:\\Users\\Grzegorz\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\8.0.11\\microsoft.windowsdesktop.app.runtime.win-x64.8.0.11.nupkg.sha512",
-    "C:\\Users\\Grzegorz\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\8.0.11\\microsoft.netcore.app.runtime.win-x64.8.0.11.nupkg.sha512"
+    "C:\\Users\\Grzegorz\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.54\\microsoft.windows.sdk.net.ref.10.0.19041.54.nupkg.sha512"
   ],
   "logs": []
 }

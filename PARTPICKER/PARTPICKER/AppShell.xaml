@@ -6,27 +6,30 @@
     xmlns:local="clr-namespace:PARTPICKER.strony.zakladki"
     Shell.FlyoutBehavior="Disabled"
     Title="PARTPICKER" Shell.TabBarBackgroundColor="BlueViolet" Shell.TabBarTitleColor="red" Shell.TabBarUnselectedColor="white">
-    <TabBar>
-        <Tab Icon="wozek.png">
-            <ShellContent
-        ContentTemplate="{DataTemplate local:zakladka1}"/>
+    <TabBar x:Name="MainTabBar" x:FieldModifier="public" >
+
+        <Tab x:Name="Tab1"  Icon="wozek.png">
+            <ShellContent ContentTemplate="{DataTemplate local:zakladka1}" />
         </Tab>
-        <Tab Icon="ustawienia.png">
-            <ShellContent
-    ContentTemplate="{DataTemplate local:zakladka2}"/>
+
+        <Tab x:Name="Tab2" Icon="ustawienia.png">
+            <ShellContent ContentTemplate="{DataTemplate local:zakladka2}" />
         </Tab>
-        <Tab Icon="konto.png">
-            <ShellContent
-    ContentTemplate="{DataTemplate local:zakladka3}"/>
+
+        <Tab x:Name="Tab3" Icon="konto.png">
+            <ShellContent ContentTemplate="{DataTemplate local:zakladka3}" />
         </Tab>
-        <Tab Icon="pc.png">
-            <ShellContent
-    ContentTemplate="{DataTemplate local:zakladka4}"/>
+
+        <!-- Zakładka 4 (obecna) -->
+        <Tab x:Name="Tab4" x:FieldModifier="public" Icon="pc.png">
+            <!-- Pamiętaj, że tu jest Twoja zakladka4, w której jest kod logowania -->
+            <ShellContent x:Name="shel1" x:FieldModifier="public" ContentTemplate="{DataTemplate local:zakladka4}" />
         </Tab>
-        <Tab Icon="pc.png">
-            <ShellContent
-    ContentTemplate="{DataTemplate local:NewPage1}"/>
+
+        <Tab x:Name="Tab5" Icon="pc.png">
+            <ShellContent ContentTemplate="{DataTemplate local:NewPage1}" />
         </Tab>
+
     </TabBar>
 
 
