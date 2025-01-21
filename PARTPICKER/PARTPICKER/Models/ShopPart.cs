@@ -1,16 +1,16 @@
-﻿namespace PARTPICKER.Models;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-public class ShopPart
+namespace PARTPICKER.Models
 {
-    public string Name { get; set; }
-    public string Type { get; set; }
-    public double Price { get; set; }
-    public string Cena
+    public class ShopPart
     {
-        get
-        {
-            return string.Format("{0:C2}", Price);
-        }
+        public string Name { get; set; }
+        public string Type { get; set; }
+        public decimal Cena { get; set; }
+        
     }
-    public bool Cart { get; set; }
 }

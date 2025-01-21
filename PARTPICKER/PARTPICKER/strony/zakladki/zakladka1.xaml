@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="PARTPICKER.strony.zakladki.zakladka1"
-             Title="">
+<ContentPage 
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="PARTPICKER.strony.zakladki.zakladka1"
+    Title="">
+
     <ContentPage.Background>
         <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
             <GradientStop Color="{DynamicResource PrimaryColor}" Offset="0.0" />
@@ -11,50 +13,292 @@
     </ContentPage.Background>
 
     <ScrollView>
-        <Grid RowDefinitions="Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto">
-            <Label Grid.Row="1"></Label>
-            <Label Text="Make your own PC!" HorizontalOptions="Center" Grid.Row="2" FontFamily="Tiny5" FontSize="24" TextColor="{DynamicResource TextColor}" />
-            <Label Grid.Row="3"></Label>
-            <Label Grid.Row="4"></Label>
-            <Entry Text="Name your PC set" Grid.Row="5" Margin="10" TextColor="{DynamicResource TextColor}"></Entry>
+        <VerticalStackLayout Padding="10" Spacing="15">
 
-            <StackLayout Padding="10" Grid.Row="6">
-                <StackLayout Orientation="Horizontal" VerticalOptions="Start">
-                    <Image Source="your_image.png" WidthRequest="30" HeightRequest="30" VerticalOptions="Start" />
-                    <Label Text="CPU" VerticalOptions="Start" Margin="5,0,0,0"  TextColor="{DynamicResource TextColor}"/>
-                </StackLayout>
-                <StackLayout>
-                    
-                    <Button BackgroundColor="RosyBrown" x:Name="CpuSelectionButton" Text="CPU"  HorizontalOptions="Fill"/>
-                    
+            <!-- Nagłówek -->
+            <Label Text="Make your own PC!"
+                   HorizontalOptions="Center"
+                   FontFamily="Tiny5"
+                   FontSize="24"
+                   TextColor="{DynamicResource TextColor}" />
 
-                    <CollectionView x:Name="CpuExpandableList">
-                        <CollectionView.ItemTemplate>
-                            <DataTemplate>
-                                <Label Text="{Binding Name}" />
-                            </DataTemplate>
-                        </CollectionView.ItemTemplate>
-                    </CollectionView>
+            <!-- Pole na nazwę zestawu -->
+            <Entry Text="Name your PC set"
+                   Margin="10"
+                   TextColor="{DynamicResource TextColor}" />
+
+            <!-- =========== CPU =========== -->
+            <StackLayout Spacing="5">
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="cpu_icon.png"
+                           WidthRequest="30"
+                           HeightRequest="30"
+                           VerticalOptions="Center" />
+                    <Label Text="CPU"
+                           VerticalOptions="Center"
+                           Margin="5,0,0,0"
+                           TextColor="{DynamicResource TextColor}"/>
                 </StackLayout>
+
+                <Button x:Name="CpuSelectionButton"
+                        Text="(Wybierz CPU)"
+                        BackgroundColor="RosyBrown"
+                        Clicked="OnCpuButtonClicked" 
+                        HorizontalOptions="Fill" />
+
+                <CollectionView x:Name="CpuExpandableList"
+                                IsVisible="False"
+                                ItemsSource="{Binding CpuList}"
+                                SelectionMode="Single"
+                                SelectionChanged="CpuExpandableList_SelectionChanged">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Label Text="{Binding}"
+                                   Padding="10,5"
+                                   TextColor="{DynamicResource TextColor}"/>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
             </StackLayout>
 
-            <StackLayout Padding="10" Grid.Row="7">
-                <StackLayout Orientation="Horizontal" VerticalOptions="Start">
-                    <Image Source="your_image.png" WidthRequest="30" HeightRequest="30" VerticalOptions="Start" />
-                    <Label Text="GPU" VerticalOptions="Start" Margin="5,0,0,0"  TextColor="{DynamicResource TextColor}"/>
+            <!-- =========== GPU =========== -->
+            <StackLayout Spacing="5">
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="gpu_icon.png"
+                           WidthRequest="30"
+                           HeightRequest="30"
+                           VerticalOptions="Center" />
+                    <Label Text="GPU"
+                           VerticalOptions="Center"
+                           Margin="5,0,0,0"
+                           TextColor="{DynamicResource TextColor}"/>
                 </StackLayout>
+
+                <Button x:Name="GpuSelectionButton"
+                        Text="(Wybierz GPU)"
+                        BackgroundColor="RosyBrown"
+                        Clicked="OnGpuButtonClicked" 
+                        HorizontalOptions="Fill" />
+
+                <CollectionView x:Name="GpuExpandableList"
+                                IsVisible="False"
+                                ItemsSource="{Binding GpuList}"
+                                SelectionMode="Single"
+                                SelectionChanged="GpuExpandableList_SelectionChanged">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Label Text="{Binding}"
+                                   Padding="10,5"
+                                   TextColor="{DynamicResource TextColor}"/>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
             </StackLayout>
 
+            <!-- =========== RAM =========== -->
+            <StackLayout Spacing="5">
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="ram_icon.png"
+                           WidthRequest="30"
+                           HeightRequest="30"
+                           VerticalOptions="Center" />
+                    <Label Text="RAM"
+                           VerticalOptions="Center"
+                           Margin="5,0,0,0"
+                           TextColor="{DynamicResource TextColor}"/>
+                </StackLayout>
 
+                <Button x:Name="RamSelectionButton"
+                        Text="(Wybierz RAM)"
+                        BackgroundColor="RosyBrown"
+                        Clicked="OnRamButtonClicked" 
+                        HorizontalOptions="Fill" />
 
-            <Label Grid.Row="13"></Label>
-            <Label Grid.Row="14"></Label>
-            <Label Grid.Row="15"></Label>
-            <Label Grid.Row="16"></Label>
-            <Label Grid.Row="17"></Label>
-            <Label Grid.Row="18"></Label>
-            <Label Grid.Row="19"></Label>
-            <Label Grid.Row="20"></Label>
-        </Grid>
+                <CollectionView x:Name="RamExpandableList"
+                                IsVisible="False"
+                                ItemsSource="{Binding RamList}"
+                                SelectionMode="Single"
+                                SelectionChanged="RamExpandableList_SelectionChanged">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Label Text="{Binding}"
+                                   Padding="10,5"
+                                   TextColor="{DynamicResource TextColor}"/>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </StackLayout>
+
+            <!-- =========== Płyta Główna =========== -->
+            <StackLayout Spacing="5">
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="mobo_icon.png"
+                           WidthRequest="30"
+                           HeightRequest="30"
+                           VerticalOptions="Center" />
+                    <Label Text="Płyta Główna"
+                           VerticalOptions="Center"
+                           Margin="5,0,0,0"
+                           TextColor="{DynamicResource TextColor}"/>
+                </StackLayout>
+
+                <Button x:Name="MoboSelectionButton"
+                        Text="(Wybierz Płytę Główną)"
+                        BackgroundColor="RosyBrown"
+                        Clicked="OnMoboButtonClicked" 
+                        HorizontalOptions="Fill" />
+
+                <CollectionView x:Name="MoboExpandableList"
+                                IsVisible="False"
+                                ItemsSource="{Binding MoboList}"
+                                SelectionMode="Single"
+                                SelectionChanged="MoboExpandableList_SelectionChanged">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Label Text="{Binding}"
+                                   Padding="10,5"
+                                   TextColor="{DynamicResource TextColor}"/>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </StackLayout>
+
+            <!-- =========== Obudowa =========== -->
+            <StackLayout Spacing="5">
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="case_icon.png"
+                           WidthRequest="30"
+                           HeightRequest="30"
+                           VerticalOptions="Center" />
+                    <Label Text="Obudowa"
+                           VerticalOptions="Center"
+                           Margin="5,0,0,0"
+                           TextColor="{DynamicResource TextColor}"/>
+                </StackLayout>
+
+                <Button x:Name="CaseSelectionButton"
+                        Text="(Wybierz Obudowę)"
+                        BackgroundColor="RosyBrown"
+                        Clicked="OnCaseButtonClicked" 
+                        HorizontalOptions="Fill" />
+
+                <CollectionView x:Name="CaseExpandableList"
+                                IsVisible="False"
+                                ItemsSource="{Binding CaseList}"
+                                SelectionMode="Single"
+                                SelectionChanged="CaseExpandableList_SelectionChanged">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Label Text="{Binding}"
+                                   Padding="10,5"
+                                   TextColor="{DynamicResource TextColor}"/>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </StackLayout>
+
+            <!-- =========== Zasilacz =========== -->
+            <StackLayout Spacing="5">
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="psu_icon.png"
+                           WidthRequest="30"
+                           HeightRequest="30"
+                           VerticalOptions="Center" />
+                    <Label Text="Zasilacz"
+                           VerticalOptions="Center"
+                           Margin="5,0,0,0"
+                           TextColor="{DynamicResource TextColor}"/>
+                </StackLayout>
+
+                <Button x:Name="PsuSelectionButton"
+                        Text="(Wybierz Zasilacz)"
+                        BackgroundColor="RosyBrown"
+                        Clicked="OnPsuButtonClicked" 
+                        HorizontalOptions="Fill" />
+
+                <CollectionView x:Name="PsuExpandableList"
+                                IsVisible="False"
+                                ItemsSource="{Binding PsuList}"
+                                SelectionMode="Single"
+                                SelectionChanged="PsuExpandableList_SelectionChanged">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Label Text="{Binding}"
+                                   Padding="10,5"
+                                   TextColor="{DynamicResource TextColor}"/>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </StackLayout>
+
+            <!-- =========== Dysk =========== -->
+            <StackLayout Spacing="5">
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="storage_icon.png"
+                           WidthRequest="30"
+                           HeightRequest="30"
+                           VerticalOptions="Center" />
+                    <Label Text="Dysk"
+                           VerticalOptions="Center"
+                           Margin="5,0,0,0"
+                           TextColor="{DynamicResource TextColor}"/>
+                </StackLayout>
+
+                <Button x:Name="StorageSelectionButton"
+                        Text="(Wybierz Dysk)"
+                        BackgroundColor="RosyBrown"
+                        Clicked="OnStorageButtonClicked" 
+                        HorizontalOptions="Fill" />
+
+                <CollectionView x:Name="StorageExpandableList"
+                                IsVisible="False"
+                                ItemsSource="{Binding StorageList}"
+                                SelectionMode="Single"
+                                SelectionChanged="StorageExpandableList_SelectionChanged">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Label Text="{Binding}"
+                                   Padding="10,5"
+                                   TextColor="{DynamicResource TextColor}"/>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </StackLayout>
+
+            <!-- =========== Chłodzenie =========== -->
+            <StackLayout Spacing="5">
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="cooling_icon.png"
+                           WidthRequest="30"
+                           HeightRequest="30"
+                           VerticalOptions="Center" />
+                    <Label Text="Chłodzenie"
+                           VerticalOptions="Center"
+                           Margin="5,0,0,0"
+                           TextColor="{DynamicResource TextColor}"/>
+                </StackLayout>
+
+                <Button x:Name="CoolingSelectionButton"
+                        Text="(Wybierz Chłodzenie)"
+                        BackgroundColor="RosyBrown"
+                        Clicked="OnCoolingButtonClicked" 
+                        HorizontalOptions="Fill" />
+
+                <CollectionView x:Name="CoolingExpandableList"
+                                IsVisible="False"
+                                ItemsSource="{Binding CoolingList}"
+                                SelectionMode="Single"
+                                SelectionChanged="CoolingExpandableList_SelectionChanged">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Label Text="{Binding}"
+                                   Padding="10,5"
+                                   TextColor="{DynamicResource TextColor}"/>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </StackLayout>
+
+        </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

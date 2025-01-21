@@ -4,6 +4,17 @@
         <name>PARTPICKER</name>
     </assembly>
     <members>
+        <member name="M:PARTPICKER.Models.ShopPartList.GetAllParts">
+            <summary>
+            Zwraca pełną listę części.
+            </summary>
+        </member>
+        <member name="M:PARTPICKER.Models.ShopPartList.SearchParts(System.String)">
+            <summary>
+            Zwraca części, które w polu Name lub Type
+            zawierają wpisany fragment tekstu (filtrowane bez rozróżniania wielkości liter).
+            </summary>
+        </member>
         <member name="E:PARTPICKER.Services.ILightSensorService.ReadingChanged">
             <summary>
             Wywoływane, gdy czujnik zwróci nową wartość światła (w luksach).
